@@ -9,13 +9,13 @@ A small project to generate random repository/release/project names based on Bio
 - [ ] Important Biological books (ie. Lehninger, Brock, Snustad)
 - [ ] Animals
 - [ ] Periodic table chemicals
-- [ ] Aminoacids
-- [ ] {D,R}NA Bases
+- [x] Aminoacids
+- [x] {D,R}NA Bases
 - [ ] Metals
 - [ ] Adjectives
 - [ ] RPG-Keywords
 - [ ] Computers keywords
 - [ ] Adjectives
-- [ ] Bacterial Generas
+- [x] Bacterial Generas and Species
 - [ ] Inorganic compounds(ie. Hidroxide, Peroxide,)
 - [ ] Important brazilian scientists

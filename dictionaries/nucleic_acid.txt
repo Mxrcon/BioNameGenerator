@@ -1,0 +1,5 @@
+adenine
+guanine
+cytosine
+thymine
+uracil 
