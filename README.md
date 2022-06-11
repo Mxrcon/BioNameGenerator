@@ -8,7 +8,7 @@ A small project to generate random repository/release/project names based on Bio
 - [ ] Fields Medal Winners
 - [ ] Important Biological books (ie. Lehninger, Brock, Snustad)
 - [ ] Animals
-- [ ] Periodic table chemicals
+- [x] Periodic table chemicals
 - [x] Aminoacids
 - [x] {D,R}NA Bases
 - [ ] Metals
