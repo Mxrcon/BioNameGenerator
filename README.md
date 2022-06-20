@@ -11,9 +11,9 @@ A small project to generate random repository/release/project names based on Bio
 - [x] Periodic table chemicals
 - [x] Aminoacids
 - [x] {D,R}NA Bases
-- [ ] Metals
+- [x] Metals
 - [ ] Adjectives
-- [ ] RPG-Keywords
+- [x] RPG-Keywords
 - [ ] Computers keywords
 - [ ] Laboratory dishes and equipaments
 - [x] Bacterial Generas and Species

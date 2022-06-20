@@ -1,0 +1,951 @@
+
+[32;1men[0m
+[32;1m--[0m
+Jacobus H. van 't Hoff
+Sully Prudhomme
+Henry Dunant
+Frédéric Passy
+Wilhelm Conrad Röntgen
+Emil von Behring
+Emil Fischer
+Theodor Mommsen
+Élie Ducommun
+Albert Gobat
+Hendrik A. Lorentz
+Pieter Zeeman
+Ronald Ross
+Svante Arrhenius
+Bjørnstjerne Bjørnson
+Randal Cremer
+Henri Becquerel
+Pierre Curie
+Marie Curie
+Niels Ryberg Finsen
+Sir William Ramsay
+Frédéric Mistral
+José Echegaray
+Lord Rayleigh
+Ivan Pavlov
+Adolf von Baeyer
+Henryk Sienkiewicz
+Bertha von Suttner
+Philipp Lenard
+Robert Koch
+Henri Moissan
+Giosuè Carducci
+Theodore Roosevelt
+J.J. Thomson
+Camillo Golgi
+Santiago Ramón y Cajal
+Eduard Buchner
+Rudyard Kipling
+Ernesto Teodoro Moneta
+Louis Renault
+Albert A. Michelson
+Alphonse Laveran
+Ernest Rutherford
+Rudolf Eucken
+Klas Pontus Arnoldson
+Fredrik Bajer
+Gabriel Lippmann
+Ilya Mechnikov
+Paul Ehrlich
+Wilhelm Ostwald
+Selma Lagerlöf
+Auguste Beernaert
+Paul Henri d'Estournelles de Constant
+Guglielmo Marconi
+Ferdinand Braun
+Theodor Kocher
+Otto Wallach
+Paul Heyse
+Johannes Diderik van der Waals
+Albrecht Kossel
+Marie Curie
+Maurice Maeterlinck
+Tobias Asser
+Alfred Fried
+Wilhelm Wien
+Allvar Gullstrand
+Victor Grignard
+Paul Sabatier
+Gerhart Hauptmann
+Elihu Root
+Gustaf Dalén
+Alexis Carrel
+Alfred Werner
+Rabindranath Tagore
+Henri La Fontaine
+Heike Kamerlingh Onnes
+Charles Richet
+Theodore W. Richards
+Max von Laue
+Robert Bárány
+Richard Willstätter
+Romain Rolland
+William Bragg
+Lawrence Bragg
+Verner von Heidenstam
+Karl Gjellerup
+Henrik Pontoppidan
+Charles Glover Barkla
+Fritz Haber
+Max Planck
+Carl Spitteler
+Woodrow Wilson
+Johannes Stark
+Jules Bordet
+Walther Nernst
+Knut Hamsun
+Léon Bourgeois
+Charles Edouard Guillaume
+August Krogh
+Frederick Soddy
+Anatole France
+Hjalmar Branting
+Christian Lange
+Albert Einstein
+Francis W. Aston
+Jacinto Benavente
+Fridtjof Nansen
+Niels Bohr
+Archibald V. Hill
+Otto Meyerhof
+Fritz Pregl
+William Butler Yeats
+Robert A. Millikan
+Frederick G. Banting
+John Macleod
+Wladyslaw Reymont
+Manne Siegbahn
+Willem Einthoven
+Richard Zsigmondy
+George Bernard Shaw
+Sir Austen Chamberlain
+Charles G. Dawes
+James Franck
+Gustav Hertz
+The Svedberg
+Grazia Deledda
+Aristide Briand
+Gustav Stresemann
+Jean Baptiste Perrin
+Johannes Fibiger
+Heinrich Wieland
+Henri Bergson
+Ferdinand Buisson
+Ludwig Quidde
+Arthur H. Compton
+C.T.R. Wilson
+Julius Wagner-Jauregg
+Adolf Windaus
+Sigrid Undset
+Owen Willans Richardson
+Charles Nicolle
+Arthur Harden
+Hans von Euler-Chelpin
+Thomas Mann
+Frank B. Kellogg
+Louis de Broglie
+Christiaan Eijkman
+Sir Frederick Hopkins
+Hans Fischer
+Sinclair Lewis
+Nathan Söderblom
+Sir Chandrasekhara Venkata Raman
+Karl Landsteiner
+Carl Bosch
+Friedrich Bergius
+Erik Axel Karlfeldt
+Jane Addams
+Nicholas Murray Butler
+Otto Warburg
+Irving Langmuir
+John Galsworthy
+Werner Heisenberg
+Sir Charles Sherrington
+Edgar Adrian
+Ivan Bunin
+Sir Norman Angell
+Erwin Schrödinger
+Paul A.M. Dirac
+Thomas H. Morgan
+Harold C. Urey
+Luigi Pirandello
+Arthur Henderson
+George H. Whipple
+George R. Minot
+William P. Murphy
+Frédéric Joliot
+Irène Joliot-Curie
+Carl von Ossietzky
+James Chadwick
+Hans Spemann
+Peter Debye
+Eugene O'Neill
+Carlos Saavedra Lamas
+Victor F. Hess
+Carl D. Anderson
+Sir Henry Dale
+Otto Loewi
+Norman Haworth
+Paul Karrer
+Roger Martin du Gard
+Robert Cecil, Viscount Cecil of Chelwood
+Clinton Davisson
+George Paget Thomson
+Albert Szent-Györgyi
+Richard Kuhn
+Pearl Buck
+Enrico Fermi
+Corneille Heymans
+Adolf Butenandt
+Leopold Ruzicka
+Frans Eemil Sillanpää
+Ernest Lawrence
+Gerhard Domagk
+George de Hevesy
+Otto Stern
+Henrik Dam
+Edward A. Doisy
+Otto Hahn
+Johannes V. Jensen
+Isidor Isaac Rabi
+Joseph Erlanger
+Herbert S. Gasser
+Artturi Virtanen
+Gabriela Mistral
+Cordell Hull
+Wolfgang Pauli
+Sir Alexander Fleming
+Ernst B. Chain
+Sir Howard Florey
+James B. Sumner
+John H. Northrop
+Wendell M. Stanley
+Hermann Hesse
+Emily Greene Balch
+John R. Mott
+Percy W. Bridgman
+Hermann J. Muller
+Sir Robert Robinson
+André Gide
+Edward V. Appleton
+Carl Cori
+Gerty Cori
+Bernardo Houssay
+Arne Tiselius
+T.S. Eliot
+Patrick M.S. Blackett
+Paul Müller
+William F. Giauque
+William Faulkner
+Lord Boyd Orr
+Hideki Yukawa
+Walter Hess
+Egas Moniz
+Otto Diels
+Kurt Alder
+Bertrand Russell
+Ralph Bunche
+Cecil Powell
+Edward C. Kendall
+Tadeus Reichstein
+Philip S. Hench
+Edwin M. McMillan
+Glenn T. Seaborg
+Pär Lagerkvist
+Léon Jouhaux
+John Cockcroft
+Ernest T.S. Walton
+Max Theiler
+Archer J.P. Martin
+Richard L.M. Synge
+François Mauriac
+Albert Schweitzer
+Felix Bloch
+E. M. Purcell
+Selman A. Waksman
+Hermann Staudinger
+Winston Churchill
+George C. Marshall
+Frits Zernike
+Hans Krebs
+Fritz Lipmann
+Linus Pauling
+Ernest Hemingway
+Max Born
+Walther Bothe
+John F. Enders
+Thomas H. Weller
+Frederick C. Robbins
+Vincent du Vigneaud
+Halldór Laxness
+Willis E. Lamb
+Polykarp Kusch
+Hugo Theorell
+Sir Cyril Hinshelwood
+Nikolay Semenov
+Juan Ramón Jiménez
+William B. Shockley
+John Bardeen
+Walter H. Brattain
+André F. Cournand
+Werner Forssmann
+Dickinson W. Richards
+Lord Todd
+Albert Camus
+Lester Bowles Pearson
+Chen Ning Yang
+Tsung-Dao Lee
+Daniel Bovet
+Frederick Sanger
+Boris Pasternak
+Georges Pire
+Pavel A. Cherenkov
+Il´ja M. Frank
+Igor Y. Tamm
+George Beadle
+Edward Tatum
+Joshua Lederberg
+Jaroslav Heyrovsky
+Salvatore Quasimodo
+Philip Noel-Baker
+Emilio Segrè
+Owen Chamberlain
+Severo Ochoa
+Arthur Kornberg
+Willard F. Libby
+Saint-John Perse
+Albert Lutuli
+Donald A. Glaser
+Sir Frank Macfarlane Burnet
+Peter Medawar
+Melvin Calvin
+Ivo Andric
+Dag Hammarskjöld
+Robert Hofstadter
+Rudolf Mössbauer
+Georg von Békésy
+Max F. Perutz
+John C. Kendrew
+John Steinbeck
+Linus Pauling
+Lev Landau
+Francis Crick
+James Watson
+Maurice Wilkins
+Karl Ziegler
+Giulio Natta
+Giorgos Seferis
+Eugene Wigner
+Maria Goeppert Mayer
+J. Hans D. Jensen
+Sir John Eccles
+Alan Hodgkin
+Andrew Huxley
+Dorothy Crowfoot Hodgkin
+Jean-Paul Sartre
+Martin Luther King Jr.
+Charles H. Townes
+Nicolay G. Basov
+Aleksandr M. Prokhorov
+Konrad Bloch
+Feodor Lynen
+Robert B. Woodward
+Mikhail Sholokhov
+Sin-Itiro Tomonaga
+Julian Schwinger
+Richard P. Feynman
+François Jacob
+André Lwoff
+Jacques Monod
+Robert S. Mulliken
+Shmuel Agnon
+Nelly Sachs
+Alfred Kastler
+Peyton Rous
+Charles B. Huggins
+Manfred Eigen
+Ronald G.W. Norrish
+George Porter
+Miguel Angel Asturias
+Hans Bethe
+Ragnar Granit
+Keffer Hartline
+George Wald
+Lars Onsager
+Yasunari Kawabata
+René Cassin
+Luis Alvarez
+Robert W. Holley
+H. Gobind Khorana
+Marshall W. Nirenberg
+Derek Barton
+Odd Hassel
+Ragnar Frisch
+Jan Tinbergen
+Samuel Beckett
+Murray Gell-Mann
+Max Delbrück
+Alfred D. Hershey
+Salvador E. Luria
+Luis Leloir
+Paul A. Samuelson
+Alexandr Solzhenitsyn
+Norman Borlaug
+Hannes Alfvén
+Louis Néel
+Sir Bernard Katz
+Ulf von Euler
+Julius Axelrod
+Gerhard Herzberg
+Simon Kuznets
+Pablo Neruda
+Willy Brandt
+Dennis Gabor
+Earl W. Sutherland, Jr.
+Christian Anfinsen
+Stanford Moore
+William H. Stein
+John R. Hicks
+Kenneth J. Arrow
+Heinrich Böll
+John Bardeen
+Leon N. Cooper
+Robert Schrieffer
+Gerald M. Edelman
+Rodney R. Porter
+Ernst Otto Fischer
+Geoffrey Wilkinson
+Wassily Leontief
+Patrick White
+Henry Kissinger
+Le Duc Tho 
+Leo Esaki
+Ivar Giaever
+Brian D. Josephson
+Karl von Frisch
+Konrad Lorenz
+Nikolaas Tinbergen
+Paul J. Flory
+Gunnar Myrdal
+Friedrich von Hayek
+Eyvind Johnson
+Harry Martinson
+Seán MacBride
+Eisaku Sato
+Martin Ryle
+Antony Hewish
+Albert Claude
+Christian de Duve
+George E. Palade
+John Cornforth
+Vladimir Prelog
+Leonid Vitaliyevich Kantorovich
+Tjalling C. Koopmans
+Eugenio Montale
+Andrei Sakharov
+Aage N. Bohr
+Ben R. Mottelson
+James Rainwater
+David Baltimore
+Renato Dulbecco
+Howard M. Temin
+William Lipscomb
+Milton Friedman
+Saul Bellow
+Betty Williams
+Mairead Corrigan
+Burton Richter
+Samuel C.C. Ting
+Baruch S. Blumberg
+D. Carleton Gajdusek
+Ilya Prigogine
+Bertil Ohlin
+James E. Meade
+Vicente Aleixandre
+Philip W. Anderson
+Sir Nevill F. Mott
+John H. Van Vleck
+Roger Guillemin
+Andrew V. Schally
+Rosalyn Yalow
+Peter Mitchell
+Herbert Simon
+Isaac Bashevis Singer
+Anwar al-Sadat
+Menachem Begin
+Pyotr Kapitsa
+Arno Penzias
+Robert Woodrow Wilson
+Werner Arber
+Daniel Nathans
+Hamilton O. Smith
+Herbert C. Brown
+Georg Wittig
+Theodore W. Schultz
+Sir Arthur Lewis
+Odysseus Elytis
+Mother Teresa
+Sheldon Glashow
+Abdus Salam
+Steven Weinberg
+Allan M. Cormack
+Godfrey N. Hounsfield
+Paul Berg
+Walter Gilbert
+Frederick Sanger
+Lawrence R. Klein
+Czeslaw Milosz
+Adolfo Pérez Esquivel
+James Cronin
+Val Fitch
+Baruj Benacerraf
+Jean Dausset
+George D. Snell
+Kenichi Fukui
+Roald Hoffmann
+James Tobin
+Elias Canetti
+Nicolaas Bloembergen
+Arthur L. Schawlow
+Kai M. Siegbahn
+Roger W. Sperry
+David H. Hubel
+Torsten N. Wiesel
+Aaron Klug
+George J. Stigler
+Gabriel García Márquez
+Alva Myrdal
+Alfonso García Robles
+Kenneth G. Wilson
+Sune K. Bergström
+Bengt I. Samuelsson
+John R. Vane
+Henry Taube
+Gerard Debreu
+William Golding
+Lech Walesa
+Subramanyan Chandrasekhar
+William A. Fowler
+Barbara McClintock
+Bruce Merrifield
+Richard Stone
+Jaroslav Seifert
+Desmond Tutu
+Carlo Rubbia
+Simon van der Meer
+Niels K. Jerne
+Georges J.F. Köhler
+César Milstein
+Herbert A. Hauptman
+Jerome Karle
+Franco Modigliani
+Claude Simon
+Klaus von Klitzing
+Michael S. Brown
+Joseph L. Goldstein
+Dudley R. Herschbach
+Yuan T. Lee
+John C. Polanyi
+James M. Buchanan Jr.
+Wole Soyinka
+Elie Wiesel
+Ernst Ruska
+Gerd Binnig
+Heinrich Rohrer
+Stanley Cohen
+Rita Levi-Montalcini
+Donald J. Cram
+Jean-Marie Lehn
+Charles J. Pedersen
+Robert M. Solow
+Joseph Brodsky
+Oscar Arias Sánchez
+J. Georg Bednorz
+K. Alex Müller
+Susumu Tonegawa
+Johann Deisenhofer
+Robert Huber
+Hartmut Michel
+Maurice Allais
+Naguib Mahfouz
+Leon M. Lederman
+Melvin Schwartz
+Jack Steinberger
+Sir James W. Black
+Gertrude B. Elion
+George H. Hitchings
+Sidney Altman
+Thomas R. Cech
+Trygve Haavelmo
+Camilo José Cela
+The 14th Dalai Lama
+Norman F. Ramsey
+Hans G. Dehmelt
+Wolfgang Paul
+J. Michael Bishop
+Harold E. Varmus
+Elias James Corey
+Harry M. Markowitz
+Merton H. Miller
+William F. Sharpe
+Octavio Paz
+Mikhail Gorbachev
+Jerome I. Friedman
+Henry W. Kendall
+Richard E. Taylor
+Joseph E. Murray
+E. Donnall Thomas
+Richard R. Ernst
+Ronald H. Coase
+Nadine Gordimer
+Aung San Suu Kyi
+Pierre-Gilles de Gennes
+Erwin Neher
+Bert Sakmann
+Rudolph A. Marcus
+Gary Becker
+Derek Walcott
+Rigoberta Menchú Tum
+Georges Charpak
+Edmond H. Fischer
+Edwin G. Krebs
+Kary B. Mullis
+Michael Smith
+Robert W. Fogel
+Douglass C. North
+Toni Morrison
+Nelson Mandela
+F.W. de Klerk
+Russell A. Hulse
+Joseph H. Taylor Jr.
+Richard J. Roberts
+Phillip A. Sharp
+George A. Olah
+John C. Harsanyi
+John F. Nash Jr.
+Reinhard Selten
+Kenzaburo Oe
+Yasser Arafat
+Shimon Peres
+Yitzhak Rabin
+Bertram N. Brockhouse
+Clifford G. Shull
+Alfred G. Gilman
+Martin Rodbell
+Paul J. Crutzen
+Mario J. Molina
+F. Sherwood Rowland
+Robert E. Lucas Jr.
+Seamus Heaney
+Joseph Rotblat
+Martin L. Perl
+Frederick Reines
+Edward B. Lewis
+Christiane Nüsslein-Volhard
+Eric F. Wieschaus
+Robert F. Curl Jr.
+Sir Harold Kroto
+Richard E. Smalley
+James A. Mirrlees
+William Vickrey
+Wislawa Szymborska
+Carlos Filipe Ximenes Belo
+José Ramos-Horta
+David M. Lee
+Douglas D. Osheroff
+Robert C. Richardson
+Peter C. Doherty
+Rolf M. Zinkernagel
+Paul D. Boyer
+John E. Walker
+Jens C. Skou
+Robert C. Merton
+Myron Scholes
+Dario Fo
+Jody Williams
+Steven Chu
+Claude Cohen-Tannoudji
+William D. Phillips
+Stanley B. Prusiner
+Walter Kohn
+John Pople
+Amartya Sen
+José Saramago
+John Hume
+David Trimble
+Robert B. Laughlin
+Horst L. Störmer
+Daniel C. Tsui
+Robert F. Furchgott
+Louis J. Ignarro
+Ferid Murad
+Ahmed Zewail
+Robert Mundell
+Günter Grass
+Gerardus 't Hooft
+Martinus J.G. Veltman
+Günter Blobel
+Alan Heeger
+Alan MacDiarmid
+Hideki Shirakawa
+James J. Heckman
+Daniel L. McFadden
+Gao Xingjian
+Kim Dae-jung
+Zhores Alferov
+Herbert Kroemer
+Jack Kilby
+Arvid Carlsson
+Paul Greengard
+Eric Kandel
+William Knowles
+Ryoji Noyori
+Barry Sharpless
+George A. Akerlof
+A. Michael Spence
+Joseph E. Stiglitz
+V. S. Naipaul
+Kofi Annan
+Eric Cornell
+Wolfgang Ketterle
+Carl Wieman
+Leland Hartwell
+Tim Hunt
+Sir Paul Nurse
+John B. Fenn
+Koichi Tanaka
+Kurt Wüthrich
+Daniel Kahneman
+Vernon L. Smith
+Imre Kertész
+Jimmy Carter
+Raymond Davis Jr.
+Masatoshi Koshiba
+Riccardo Giacconi
+Sydney Brenner
+H. Robert Horvitz
+John E. Sulston
+Peter Agre
+Roderick MacKinnon
+Robert F. Engle III
+Clive W.J. Granger
+J. M. Coetzee
+Shirin Ebadi
+Alexei Abrikosov
+Vitaly L. Ginzburg
+Anthony J. Leggett
+Paul C. Lauterbur
+Sir Peter Mansfield
+Aaron Ciechanover
+Avram Hershko
+Irwin Rose
+Finn E. Kydland
+Edward C. Prescott
+Elfriede Jelinek
+Wangari Maathai
+David J. Gross
+H. David Politzer
+Frank Wilczek
+Richard Axel
+Linda B. Buck
+Yves Chauvin
+Robert H. Grubbs
+Richard R. Schrock
+Robert J. Aumann
+Thomas C. Schelling
+Harold Pinter
+Mohamed ElBaradei
+Roy J. Glauber
+John L. Hall
+Theodor W. Hänsch
+Barry J. Marshall
+J. Robin Warren
+Roger D. Kornberg
+Edmund S. Phelps
+Orhan Pamuk
+Muhammad Yunus
+John C. Mather
+George F. Smoot
+Andrew Z. Fire
+Craig C. Mello
+Gerhard Ertl
+Leonid Hurwicz
+Eric S. Maskin
+Roger B. Myerson
+Doris Lessing
+Al Gore
+Albert Fert
+Peter Grünberg
+Mario R. Capecchi
+Sir Martin J. Evans
+Oliver Smithies
+Osamu Shimomura
+Martin Chalfie
+Roger Y. Tsien
+Paul Krugman
+Jean-Marie Gustave Le Clézio
+Martti Ahtisaari
+Yoichiro Nambu
+Makoto Kobayashi
+Toshihide Maskawa
+Harald zur Hausen
+Françoise Barré-Sinoussi
+Luc Montagnier
+Venkatraman Ramakrishnan
+Thomas A. Steitz
+Ada E. Yonath
+Elinor Ostrom
+Oliver E. Williamson
+Herta Müller
+Barack H. Obama
+Charles K. Kao
+Willard S. Boyle
+George E. Smith
+Elizabeth H. Blackburn
+Carol W. Greider
+Jack W. Szostak
+Richard F. Heck
+Ei-ichi Negishi
+Akira Suzuki
+Peter A. Diamond
+Dale T. Mortensen
+Christopher A. Pissarides
+Mario Vargas Llosa
+Liu Xiaobo
+Andre Geim
+Konstantin Novoselov
+Robert G. Edwards
+Dan Shechtman
+Thomas J. Sargent
+Christopher A. Sims
+Tomas Tranströmer
+Ellen Johnson Sirleaf
+Leymah Gbowee
+Tawakkol Karman
+Saul Perlmutter
+Brian P. Schmidt
+Adam G. Riess
+Bruce A. Beutler
+Jules A. Hoffmann
+Ralph M. Steinman
+Robert J. Lefkowitz
+Brian Kobilka
+Alvin E. Roth
+Lloyd S. Shapley
+Mo Yan
+Serge Haroche
+David J. Wineland
+Sir John B. Gurdon
+Shinya Yamanaka
+Martin Karplus
+Michael Levitt
+Arieh Warshel
+Eugene F. Fama
+Lars Peter Hansen
+Robert J. Shiller
+Alice Munro
+François Englert
+Peter Higgs
+James E. Rothman
+Randy W. Schekman
+Thomas C. Südhof
+Eric Betzig
+Stefan W. Hell
+William E. Moerner
+Jean Tirole
+Patrick Modiano
+Kailash Satyarthi
+Malala Yousafzai
+Isamu Akasaki
+Hiroshi Amano
+Shuji Nakamura
+John O'Keefe
+May-Britt Moser
+Edvard I. Moser
+Tomas Lindahl
+Paul Modrich
+Aziz Sancar
+Angus Deaton
+Svetlana Alexievich
+Takaaki Kajita
+Arthur B. McDonald
+William C. Campbell
+Satoshi Ōmura
+Tu Youyou
+Jean-Pierre Sauvage
+Sir J. Fraser Stoddart
+Bernard L. Feringa
+Oliver Hart
+Bengt Holmström
+Bob Dylan
+Juan Manuel Santos
+David J. Thouless
+F. Duncan M. Haldane
+J. Michael Kosterlitz
+Yoshinori Ohsumi
+Jacques Dubochet
+Joachim Frank
+Richard Henderson
+Richard H. Thaler
+Kazuo Ishiguro
+Rainer Weiss
+Barry C. Barish
+Kip S. Thorne
+Jeffrey C. Hall
+Michael Rosbash
+Michael W. Young
+Frances H. Arnold
+George P. Smith
+Sir Gregory P. Winter
+William D. Nordhaus
+Paul M. Romer
+Olga Tokarczuk
+Denis Mukwege
+Nadia Murad
+Arthur Ashkin
+Gérard Mourou
+Donna Strickland
+James P. Allison
+Tasuku Honjo
+John B. Goodenough
+M. Stanley Whittingham
+Akira Yoshino
+Abhijit Banerjee
+Esther Duflo
+Michael Kremer
+Peter Handke
+Abiy Ahmed Ali
+James Peebles
+Michel Mayor
+Didier Queloz
+William G. Kaelin Jr
+Sir Peter J. Ratcliffe
+Gregg L. Semenza
+Emmanuelle Charpentier
+Jennifer A. Doudna
+Paul R. Milgrom
+Robert B. Wilson
+Louise Glück
+Roger Penrose
+Reinhard Genzel
+Andrea Ghez
+Harvey J. Alter
+Michael Houghton
+Charles M. Rice
+Benjamin List
+David W.C. MacMillan
+David Card
+Joshua D. Angrist
+Guido W. Imbens
+Abdulrazak Gurnah
+Maria Ressa
+Dmitry Muratov
+Syukuro Manabe
+Klaus Hasselmann
+Giorgio Parisi
+David Julius
+Ardem Patapoutian
+
