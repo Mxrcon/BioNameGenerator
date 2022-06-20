@@ -11,13 +11,13 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Run tests
-      id: "test_module_${{ matrix.os }}"
+      id: test_module
       uses: zyborg/pester-tests-report@v1
       with:
         include_paths: tests
         exclude_paths: tests/powershell1,tests/powershell2
         exclude_tags: skip_ci
-        report_name: module_tests
+        report_name: "module_tests_${{ matrix.os }}"
         report_title: My Module Tests
         github_token: ${{ secrets.GITHUB_TOKEN }}
         output_level: detailed
