@@ -1,6 +1,12 @@
 BeforeAll {
-    . ./BioNameGenerator/Private/GetAminoacid.ps1
-    . ./BioNameGenerator/Private/GetNucleicAcid.ps1
+      $projectRoot = $ENV:BHProjectPath
+      $projectRoot = $ENV:BHProjectPath
+      if (-not $projectRoot) {
+        $projectRoot = $PSScriptRoot
+      }
+
+    . $projectRoot/BioNameGenerator/Private/GetAminoacid.ps1
+    . $projectRoot/BioNameGenerator/Private/GetNucleicAcid.ps1
 
 
 }
