@@ -20,6 +20,7 @@ jobs:
         report_name: module_tests
         report_title: My Module Tests
         github_token: ${{ secrets.GITHUB_TOKEN }}
+        output_level: detailed
     - name: Dump Tests
       shell: pwsh
       run: |
