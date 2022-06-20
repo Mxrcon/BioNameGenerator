@@ -10,6 +10,20 @@ jobs:
         os: [ubuntu-latest, windows-latest, macOS-latest]
     steps:
     - uses: actions/checkout@v1
-    - name: Test
+    - name: Run tests
+      id: test_module
+      uses: zyborg/pester-tests-report@v1
+      with:
+        include_paths: tests
+        exclude_paths: tests/powershell1,tests/powershell2
+        exclude_tags: skip_ci
+        report_name: module_tests
+        report_title: My Module Tests
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+    - name: Dump Tests
       shell: pwsh
-      run: ./build.ps1 -Task Test -Bootstrap
+      run: |
+        Write-Host 'Total Tests Executed...:  ${{ steps.test_module.outputs.total_count }}'
+        Write-Host 'Total Tests PASSED.....:  ${{ steps.test_module.outputs.passed_count }}'
+        Write-Host 'Total Tests FAILED.....:  ${{ steps.test_module.outputs.failed_count }}'
+    
