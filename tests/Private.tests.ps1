@@ -6,8 +6,8 @@ BeforeAll {
       }
       Write-Host $projectRoot
 
-    . BioNameGenerator/Private/GetAminoacid.ps1
-    . BioNameGenerator/Private/GetNucleicAcid.ps1
+    . $projectRoot/BioNameGenerator/Private/GetAminoacid.ps1
+    . $projectRoot/BioNameGenerator/Private/GetNucleicAcid.ps1
 
 
 }
