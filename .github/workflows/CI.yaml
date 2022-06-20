@@ -10,12 +10,14 @@ jobs:
         os: [ubuntu-latest, windows-latest, macOS-latest]
     steps:
     - uses: actions/checkout@v1
-    - name: Run tests
+    - name: Run Test
+      shell: pwsh
+      run: ./build.ps1 -Task Test -Bootstrap
+    - name: Create tests reports
       id: test_module
       uses: zyborg/pester-tests-report@v1
       with:
-        include_paths: tests
-        exclude_paths: tests/powershell1,tests/powershell2
+        test_results_path: tests/out/testResults.xml
         exclude_tags: skip_ci
         report_name: "module_tests_${{ matrix.os }}"
         report_title: My Module Tests
