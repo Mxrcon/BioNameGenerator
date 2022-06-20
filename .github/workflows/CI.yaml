@@ -20,7 +20,7 @@ jobs:
         report_name: "module_tests_${{ matrix.os }}"
         report_title: My Module Tests
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        output_level: detailed
+        output_level: normal
     - name: Dump Tests
       shell: pwsh
       run: |
