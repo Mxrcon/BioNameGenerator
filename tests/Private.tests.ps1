@@ -4,10 +4,10 @@ BeforeAll {
       if (-not $projectRoot) {
         $projectRoot = $PSScriptRoot
       }
-      Write-Host $projectRoot
+      $privatePath="BioNameGenerator/Private"
 
-    . $projectRoot/BioNameGenerator/Private/GetAminoacid.ps1
-    . $projectRoot/BioNameGenerator/Private/GetNucleicAcid.ps1
+    Import-Module $projectRoot/$privatePath/GetAminoacid.psm1
+    Import-Module $projectRoot/$privatePath/GetNucleicAcid.psm1
 
 
 }
