@@ -1,5 +1,17 @@
 name: CI
-on: [push, pull_request]
+on: 
+   push:
+     paths:
+       - '*.{ps1,psm1}'
+       - 'BioNameGenerator/*.{ps1,psm1}'
+       - 'BioNameGenerator/*/*.{ps1,psm1}'
+       - 'tests/*'
+     branches:    
+      - main
+   pull_request:
+     branches:
+      - main
+
 jobs:
   test:
     name: Run Tests
@@ -23,6 +35,7 @@ jobs:
         report_title: My Module Tests
         github_token: ${{ secrets.GITHUB_TOKEN }}
         output_level: normal
+        tests_fail_step: true
     - name: Dump Tests
       shell: pwsh
       run: |
