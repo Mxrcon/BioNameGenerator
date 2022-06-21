@@ -1,26 +1,8 @@
 function Get-Aminoacid {
-    $Aminoacids = @("Alanine",
-        "Arginine",
-        "Asparagine",
-        "Aspartate",
-        "Cysteine",
-        "Glutamine",
-        "Glutamate",
-        "Glycine",
-        "Histidine",
-        "Isoleucine",
-        "Leucine",
-        "Lysine",
-        "Methionine",
-        "Phenylalanine",
-        "Proline",
-        "Serine",
-        "Threonine",
-        "Tryptophan",
-        "Tyrosine",
-        "Valine",
-        "Selenocysteine",
-        "Pyrrolysine")
+    param([parameter(Mandatory)][String]$DatabasePath)
+
+    $Table = Invoke-SqliteQuery -Database $DatabasePath -Query "SELECT * FROM Aminoacids"
+    $Aminoacids = $Table.Aminoacids
     return $Aminoacids[$(Get-Random -Maximum $Aminoacids.count)]
 }
 

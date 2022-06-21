@@ -5,6 +5,7 @@ BeforeAll {
         $projectRoot = $PSScriptRoot
       }
       $privatePath="BioNameGenerator/Private"
+      $DatabasePath= "BioNameGenerator/Databases/Dictionaries.db"
 
     Import-Module $projectRoot/$privatePath/GetAminoacid.psm1
     Import-Module $projectRoot/$privatePath/GetNucleicAcid.psm1
@@ -15,7 +16,7 @@ BeforeAll {
 
 Describe 'Test Private Functions' {
     It 'Generate a random Aminoacid' {
-        Get-Aminoacid | Should -BeOfType String
+        Get-Aminoacid $ProjectRoot/$DatabasePath | Should -BeOfType String
     }
 
     It 'Generate a random Nucleic Acid' {

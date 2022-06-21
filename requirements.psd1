@@ -20,7 +20,7 @@
     'PSScriptAnalyzer' = @{
         Version = '1.19.1'
     }
-    'PSSQLite'@{
+    'PSSQLite' = @{
         Version = '1.1.0'
     }
 }
