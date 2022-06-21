@@ -1,11 +1,6 @@
 name: CI
 on: 
    push:
-     paths:
-       - '*.{ps1,psm1}'
-       - 'BioNameGenerator/*.{ps1,psm1}'
-       - 'BioNameGenerator/{Private,Public}/*.{ps1,psm1}'
-       - 'tests/*'
      branches:    
       - main
    pull_request:
