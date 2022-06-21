@@ -24,15 +24,15 @@ Describe 'Test Private Functions' {
     }
 
     It 'Generate a random Bacterial Genera'{
-    Get-BacterialGenera $ProjectRoot/$DatabasePath | Should -BeOfType String
+        Get-BacterialGenera $ProjectRoot/$DatabasePath | Should -BeOfType String
     }
 
     It 'Generate a random Bacterial Specie'{
-    Get-BacterialSpecie $ProjectRoot/$DatabasePath | Should -BeOfType String
+        Get-BacterialSpecie $ProjectRoot/$DatabasePath | Should -BeOfType String
     }
 
     It 'Generate a random Metal or Alloy'{
-    Get-MetalOrAlloy $ProjectRoot/$DatabasePath | Should -BeOfType String
+        Get-MetalOrAlloy $ProjectRoot/$DatabasePath | Should -BeOfType String
     }
 
 }
