@@ -9,7 +9,7 @@ BeforeAll {
     Import-Module $projectRoot/$privatePath/GetAminoacid.psm1
     Import-Module $projectRoot/$privatePath/GetNucleicAcid.psm1
     Import-Module $projectRoot/$privatePath/GetBacterialGenera.psm1
-
+    Import-Module $projectRoot/$privatePath/GetBacterialSpecie.psm1
 }
 
 Describe 'Test Private Functions' {
@@ -23,6 +23,10 @@ Describe 'Test Private Functions' {
 
     It 'Generate a random Bacterial Genera'{
     Get-BacterialGenera | Should -BeOfType String
+    }
+
+    It 'Generate a random Bacterial Specie'{
+    Get-BacterialSpecie | Should -BeOfType String
     }
 
 }
