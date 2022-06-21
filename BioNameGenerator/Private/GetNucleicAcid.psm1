@@ -1,9 +1,9 @@
 function Get-NucleicAcid {
-    $NucleicAcids = @("Adenine",
-            "Guanine",
-            "Cytosine",
-            "Thymine",
-            "Uracil")
-    return $NucleicAcids[$(Get-Random -Maximum $NucleicAcids.count)]
+    param([parameter(Mandatory)][String]$DatabasePath)
+
+    $Table = Invoke-SqliteQuery -Database $DatabasePath -Query "SELECT NucleicAcids FROM NucleicAcids ORDER BY RANDOM() LIMIT 1"
+    $NucleicAcid = $Table.NucleicAcids
+
+    return $NucleicAcid
 }
 
