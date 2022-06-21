@@ -69,6 +69,11 @@
             "label": "Publish",
             "type": "shell",
             "command": "${cwd}/build.ps1 -Task Publish -Verbose"
-        }
+        },
+	{
+	    "label": "Ident",
+	    "type": "shell",
+	    "command": " Import-Module ${cwd}/tests/MetaFixers.psm1 && Get-TextFilesList $pwd | ConvertTo-SpaceIndentation"
+	}
     ]
 }

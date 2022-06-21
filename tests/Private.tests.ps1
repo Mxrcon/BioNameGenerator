@@ -22,7 +22,7 @@ Describe 'Test Private Functions' {
     }
 
     It 'Generate a random Bacterial Genera'{
-	Get-BacterialGenera | Should -BeOfType String
+    Get-BacterialGenera | Should -BeOfType String
     }
 
 }
