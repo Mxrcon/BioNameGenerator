@@ -1,6 +1,3 @@
-
-[32;1men[0m
-[32;1m--[0m
 Jacobus H. van 't Hoff
 Sully Prudhomme
 Henry Dunant

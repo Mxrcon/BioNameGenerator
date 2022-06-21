@@ -1,5 +1,5 @@
 function Get-Aminoacid {
-    $aminoacids = @("Alanine",
+    $Aminoacids = @("Alanine",
         "Arginine",
         "Asparagine",
         "Aspartate",
@@ -21,6 +21,6 @@ function Get-Aminoacid {
         "Valine",
         "Selenocysteine",
         "Pyrrolysine")
-    return $aminoacids[$(Get-Random -Maximum $aminoacids.count)]
+    return $Aminoacids[$(Get-Random -Maximum $Aminoacids.count)]
 }
 
