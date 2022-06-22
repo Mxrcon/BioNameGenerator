@@ -31,4 +31,23 @@ Describe 'Test Private Functions' {
 	Get-RandomKeyword -Database $ProjectRoot/$DatabasePath -TableField ElementName -TableName MetalsAndAlloys
     }
 
+    It 'Generate a random Color'{
+	Get-RandomKeyword -Database $ProjectRoot/$DatabasePath -TableField ColorName -TableName Colors
+    }
+
+    It 'Generate a random Computation Keyword'{
+	Get-RandomKeyword -Database $ProjectRoot/$DatabasePath -TableField Keyword -TableName ComputationKeywords
+    }
+
+    It 'Generate a random Fields Winner'{
+	Get-RandomKeyword -Database $ProjectRoot/$DatabasePath -TableField LastName -TableName FieldsWinners
+    }
+
+    It 'Generate a random Nobel Laureate'{
+	Get-RandomKeyword -Database $ProjectRoot/$DatabasePath -TableField LastName -TableName NobelLaureates
+    }
+
+    It 'Generate a random Periodic Table Element'{
+	Get-RandomKeyword -Database $ProjectRoot/$DatabasePath -TableField ElementName -TableName PeriodicTableElements
+    }
 }
