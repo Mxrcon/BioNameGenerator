@@ -1,4 +1,4 @@
-function Get-RandomKeyword {
+function Get-KeywordFromDatabase {
     param([parameter(Mandatory)][String]$DatabasePath,
     [parameter(Mandatory)][String]$TableName,
     [parameter(Mandatory)][String]$TableField)
