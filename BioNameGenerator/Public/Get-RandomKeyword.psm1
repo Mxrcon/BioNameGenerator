@@ -39,10 +39,10 @@ Import-Module -Name (Join-Path -Path $modulePath `
         -ChildPath (Join-Path -Path 'Private' `
             -ChildPath 'GetKeywordFromDatabase.psm1'))
 
-$databasePath= Join-Path -Path (Split-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -Parent) -ChildPath 'Databases'
+$databasePath= Join-Path -Path (Split-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -Parent) -ChildPath 'BioNameGenerator'
 
 
-      $DictionariesPath= "$databasePath/Dictionaries.db"
+      $DictionariesPath= "$databasePath/Databases/Dictionaries.db"
 
       Get-KeywordFromDatabase -Database $DictionariesPath -TableField $Field -TableName $Name
 }
