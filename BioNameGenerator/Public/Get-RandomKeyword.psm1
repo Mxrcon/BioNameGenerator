@@ -32,17 +32,14 @@ Function Get-RandomKeyword {
 	"PeriodicTableElements" {}
 	}
 
-$modulePath = Join-Path -Path (Split-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -Parent) -ChildPath 'BioNameGenerator'
+      $ProjectPath = Join-Path -Path (Split-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -Parent) -ChildPath 'BioNameGenerator'
 
-# Import Modules
-Import-Module -Name (Join-Path -Path $modulePath `
-        -ChildPath (Join-Path -Path 'Private' `
+      # Import Modules
+      Import-Module -Name (Join-Path -Path $ProjectPath `
+            -ChildPath (Join-Path -Path 'Private' `
             -ChildPath 'GetKeywordFromDatabase.psm1'))
 
-$databasePath= Join-Path -Path (Split-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -Parent) -ChildPath 'BioNameGenerator'
-
-
-      $DictionariesPath= "$databasePath/Databases/Dictionaries.db"
+      $DictionariesPath= "$ProjectPath/Databases/Dictionaries.db"
 
       Get-KeywordFromDatabase -Database $DictionariesPath -TableField $Field -TableName $Name
 }
