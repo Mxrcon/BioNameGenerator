@@ -31,11 +31,15 @@ Function Get-RandomKeyword {
 	"NobelLaureates" {}
 	"PeriodicTableElements" {}
 	}
-$modulePath = Join-Path -Path (Split-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -Parent) -ChildPath 'Private'
-$databasePath= Join-Path -Path (Split-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -Parent) -ChildPath 'Databases'
-# Import the Modules
+
+$modulePath = Join-Path -Path (Split-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -Parent) -ChildPath 'BioNameGenerator'
+
+# Import Modules
 Import-Module -Name (Join-Path -Path $modulePath `
-	-ChildPath 'GetKeywordFromDatabase.psm1')
+        -ChildPath (Join-Path -Path 'Private' `
+            -ChildPath 'GetKeywordFromDatabase.psm1'))
+
+$databasePath= Join-Path -Path (Split-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -Parent) -ChildPath 'Databases'
 
 
       $DictionariesPath= "$databasePath/Dictionaries.db"
