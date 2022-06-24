@@ -6,7 +6,7 @@ BeforeAll {
       }
       $PublicPath="BioNameGenerator/Public"
 
-    Import-Module $ProjectRoot/$PublicPath/"Get-RandomKeyword.psm1"
+    . $ProjectRoot/$PublicPath/"GetRandomKeyword.ps1"
 }
 
 Describe 'Test Public Functions' {

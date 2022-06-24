@@ -24,7 +24,7 @@ GUID = '02190149-a195-4e06-ad85-ce3b7a8dc3cb'
 Author = 'Davi Marcon (@mxrcon)'
 
 # Company or vendor of this module
-CompanyName = 'Unknown'
+CompanyName = ''
 
 # Copyright statement for this module
 Copyright = '(c) Davi Marcon (@mxrcon). All rights reserved.'
