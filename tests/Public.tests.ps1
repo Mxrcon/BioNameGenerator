@@ -5,13 +5,12 @@ BeforeAll {
         $projectRoot = $PSScriptRoot
       }
       $PublicPath="BioNameGenerator/Public"
-      $DatabasePath= "BioNameGenerator/Databases/Dictionaries.db"
 
-    Import-Module $ProjectRoot/$PublicPath/"Get-KeywordHandler.psm1"
+    Import-Module $ProjectRoot/$PublicPath/"Get-RandomKeyword.psm1"
 }
 
 Describe 'Test Public Functions' {
-    It 'Test Get-KeywordHandler with Default' {
-	Get-KeywordHandler | Should -BeOfType String
+    It 'Test Get-RandomKeyword with Default' {
+	Get-RandomKeyword | Should -BeOfType String
     }
 }
