@@ -9,26 +9,26 @@ Function Get-RandomPhrase {
         Runs the command
     .PARAMETER Dictionary
         Specifies wich Dictiory use for finding random words [Aminoacids, NucleicAcids, BacterialGeneras,
-	BacterialSpecies, MetalsAndAlloys, Colors, ComputationKeywords, FieldsWinners,
-	NobelLaureates,PeriodicTableElements]
+    BacterialSpecies, MetalsAndAlloys, Colors, ComputationKeywords, FieldsWinners,
+    NobelLaureates,PeriodicTableElements]
     #>
     [OutputType([string])]
     [CmdletBinding()]
     param (
         [Parameter()]
         [string]$Start = "None",
-	[Parameter()]
+    [Parameter()]
         [string]$Middle = "Colors",
-	[Parameter()]
+    [Parameter()]
         [string]$End = "Generas",
-	[Parameter()]
-	[string]$Delimiter = "_")
+    [Parameter()]
+    [string]$Delimiter = "_")
 
       $Phrase=@()
       $Structure= @($Start,$Middle,$End)
       foreach($Item in $Structure){
-	if($Item -ne "None"){
-	$Phrase+=$(Get-RandomKeyword $Item)
+    if($Item -ne "None"){
+    $Phrase+=$(Get-RandomKeyword $Item)
         }
       }
       return $Phrase -join $Delimiter

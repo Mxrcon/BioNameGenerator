@@ -12,7 +12,7 @@ BeforeAll {
 
 Describe 'Test Public Functions' {
     It 'Test Get-RandomKeyword with Default' {
-	Get-RandomKeyword | Should -BeOfType String
+    Get-RandomKeyword | Should -BeOfType String
     }
     It 'Test all Specific Cases' {
         Get-RandomKeyword -Dictionary "Aminoacids" | Should -BeOfType String

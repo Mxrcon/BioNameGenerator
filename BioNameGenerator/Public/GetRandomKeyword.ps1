@@ -9,8 +9,8 @@ Function Get-RandomKeyword {
         Runs the command
     .PARAMETER Dictionary
         Specifies wich Dictiory use for finding random words [Aminoacids, NucleicAcids, BacterialGeneras,
-	BacterialSpecies, MetalsAndAlloys, Colors, ComputationKeywords, FieldsWinners,
-	NobelLaureates,PeriodicTableElements]
+    BacterialSpecies, MetalsAndAlloys, Colors, ComputationKeywords, FieldsWinners,
+    NobelLaureates,PeriodicTableElements]
     #>
     [OutputType([string])]
     [CmdletBinding()]
@@ -21,15 +21,15 @@ Function Get-RandomKeyword {
     switch ($Dictionary){
         "Aminoacids"  {$Field ="AminoacidName"  ; $Name= "Aminoacids"           }
         "NucleicAcid" {$Field ="NucleicAcidName"; $Name= "NucleicAcids"         }
-	"Generas"     {$Field = "GeneraName"    ; $Name= "BacterialGeneras"     }
-	"Species"     {$Field = "SpecieName"    ; $Name= "BacterialSpecies"     }
-	"Metals"      {$Field = "ElementName"   ; $Name= "MetalsAndAlloys"      }
-	"Colors"      {$Field = "ColorName"     ; $Name= "Colors"               }
-	"Comp"        {$Field = "Keyword"       ; $Name= "ComputationKeywords"  }
-	"Fields"      {$Field = "LastName"      ; $Name= "FieldsWinners"        }
-	"Nobel"       {$Field = "LastName"      ; $Name= "NobelLaureates"       }
-	"Elements"    {$Field = "ElementName"   ; $Name= "PeriodicTableElements"}
-	}
+    "Generas"     {$Field = "GeneraName"    ; $Name= "BacterialGeneras"     }
+    "Species"     {$Field = "SpecieName"    ; $Name= "BacterialSpecies"     }
+    "Metals"      {$Field = "ElementName"   ; $Name= "MetalsAndAlloys"      }
+    "Colors"      {$Field = "ColorName"     ; $Name= "Colors"               }
+    "Comp"        {$Field = "Keyword"       ; $Name= "ComputationKeywords"  }
+    "Fields"      {$Field = "LastName"      ; $Name= "FieldsWinners"        }
+    "Nobel"       {$Field = "LastName"      ; $Name= "NobelLaureates"       }
+    "Elements"    {$Field = "ElementName"   ; $Name= "PeriodicTableElements"}
+    }
 
       $ProjectPath = Join-Path -Path (Split-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -Parent) -ChildPath 'BioNameGenerator'
 

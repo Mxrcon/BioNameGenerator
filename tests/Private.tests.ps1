@@ -12,7 +12,7 @@ BeforeAll {
 
 Describe 'Test Private Functions' {
     It 'Generate a random Aminoacid' {
-	Get-KeywordFromDatabase $ProjectRoot/$DatabasePath -TableField AminoacidName -TableName Aminoacids 
+    Get-KeywordFromDatabase $ProjectRoot/$DatabasePath -TableField AminoacidName -TableName Aminoacids 
     }
 
     It 'Generate a random Nucleic Acid' {
@@ -20,34 +20,34 @@ Describe 'Test Private Functions' {
     }
 
     It 'Generate a random Bacterial Genera'{
-	Get-KeywordFromDatabase -Database $ProjectRoot/$DatabasePath -TableField GeneraName -TableName BacterialGeneras
+    Get-KeywordFromDatabase -Database $ProjectRoot/$DatabasePath -TableField GeneraName -TableName BacterialGeneras
     }
 
     It 'Generate a random Bacterial Specie'{
-	Get-KeywordFromDatabase -Database $ProjectRoot/$DatabasePath -TableField SpecieName -TableName BacterialSpecies
+    Get-KeywordFromDatabase -Database $ProjectRoot/$DatabasePath -TableField SpecieName -TableName BacterialSpecies
     }
 
     It 'Generate a random Metal or Alloy'{
-	Get-KeywordFromDatabase -Database $ProjectRoot/$DatabasePath -TableField ElementName -TableName MetalsAndAlloys
+    Get-KeywordFromDatabase -Database $ProjectRoot/$DatabasePath -TableField ElementName -TableName MetalsAndAlloys
     }
 
     It 'Generate a random Color'{
-	Get-KeywordFromDatabase -Database $ProjectRoot/$DatabasePath -TableField ColorName -TableName Colors
+    Get-KeywordFromDatabase -Database $ProjectRoot/$DatabasePath -TableField ColorName -TableName Colors
     }
 
     It 'Generate a random Computation Keyword'{
-	Get-KeywordFromDatabase -Database $ProjectRoot/$DatabasePath -TableField Keyword -TableName ComputationKeywords
+    Get-KeywordFromDatabase -Database $ProjectRoot/$DatabasePath -TableField Keyword -TableName ComputationKeywords
     }
 
     It 'Generate a random Fields Winner'{
-	Get-KeywordFromDatabase -Database $ProjectRoot/$DatabasePath -TableField LastName -TableName FieldsWinners
+    Get-KeywordFromDatabase -Database $ProjectRoot/$DatabasePath -TableField LastName -TableName FieldsWinners
     }
 
     It 'Generate a random Nobel Laureate'{
-	Get-KeywordFromDatabase -Database $ProjectRoot/$DatabasePath -TableField LastName -TableName NobelLaureates
+    Get-KeywordFromDatabase -Database $ProjectRoot/$DatabasePath -TableField LastName -TableName NobelLaureates
     }
 
     It 'Generate a random Periodic Table Element'{
-	Get-KeywordFromDatabase -Database $ProjectRoot/$DatabasePath -TableField ElementName -TableName PeriodicTableElements
+    Get-KeywordFromDatabase -Database $ProjectRoot/$DatabasePath -TableField ElementName -TableName PeriodicTableElements
     }
 }
