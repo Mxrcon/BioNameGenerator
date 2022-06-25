@@ -7,6 +7,7 @@ BeforeAll {
       $PublicPath="BioNameGenerator/Public"
 
     . $ProjectRoot/$PublicPath/"GetRandomKeyword.ps1"
+    . $ProjectRoot/$PublicPath/"GetRandomPhrase.ps1"
 }
 
 Describe 'Test Public Functions' {
@@ -26,5 +27,8 @@ Describe 'Test Public Functions' {
         Get-RandomKeyword -Dictionary "Elements" | Should -BeOfType String
 
 
+    }
+    It 'Test Get-RandomPhrase with Default'{
+        Get-RandomPhrase | Should -BeOfType String
     }
 }

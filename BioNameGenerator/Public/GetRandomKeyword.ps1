@@ -42,5 +42,3 @@ Function Get-RandomKeyword {
 
       Get-KeywordFromDatabase -Database $DictionariesPath -TableField $Field -TableName $Name
 }
-
-Export-ModuleMember -function Get-RandomKeyword
