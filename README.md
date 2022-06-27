@@ -3,17 +3,17 @@ A small project to generate random repository/release/project names based on Bio
 
 
 # current todos
-- [ ] Nextflow-like Adjectives/Important Scientists
+- [x] Nextflow Adjectives/Important Scientists
 - [x] Nobel Winners
 - [x] Fields Medal Winners
-- [ ] Important Biological books (ie. Lehninger, Brock, Snustad)
-- [ ] Animals
+- [x] Important Biological books (ie. Lehninger, Brock, Snustad)
+- [x] Animals
 - [x] Periodic table chemicals
 - [x] Aminoacids
 - [x] {D,R}NA Bases
 - [x] Metals
 - [x] Colors
-- [ ] Adjectives
+- [x] Adjectives
 - [x] RPG-Keywords
 - [x] Computers keywords
 - [ ] Laboratory dishes and equipaments
