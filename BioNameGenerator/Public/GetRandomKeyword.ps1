@@ -8,15 +8,14 @@ Function Get-RandomKeyword {
         PS> Get-KeywordHandler
         Runs the command
     .PARAMETER Dictionary
-        Specifies wich Dictiory use for finding random words [Aminoacids, NucleicAcids, BacterialGeneras,
-    BacterialSpecies, MetalsAndAlloys, Colors, ComputationKeywords, FieldsWinners,
-    NobelLaureates,PeriodicTableElements]
+        Specifies wich Dictiory use for finding random words options: [Aminoacids,Nucleic,Generas,Species,Metals,
+	Colors,Comp,Fields,Nobel,Elements,28kAdj,Animals,Books,NF-Adj,NF-Names,RPG]
     #>
     [OutputType([string])]
     [CmdletBinding()]
     param (
         [Parameter()]
-	[ValidateSet('Aminoacids', 'Nucleic', 'Generas','Species', 'Metals', 'Colors', 'Comp', 'Fields','Elements', 'Nobel')]
+	[ValidateSet("Aminoacids","Nucleic","Generas","Species","Metals","Colors","Comp","Fields","Nobel","Elements","28kAdj","Animals","Books","NF-Adj","NF-Names","RPG")]
         [string]$Dictionary = "Aminoacids"
     )
     switch ($Dictionary){
@@ -30,6 +29,12 @@ Function Get-RandomKeyword {
     "Fields"      {$Field = "LastName"        ; $Name= "FieldsWinners"        }
     "Nobel"       {$Field = "LastName"        ; $Name= "NobelLaureates"       }
     "Elements"    {$Field = "ElementName"     ; $Name= "PeriodicTableElements"}
+    "28kAdj"      {$Field = "Adjective"       ; $Name= "28kAdjectives"        }
+    "Animals"     {$Field = "AnimalName"      ; $Name= "Animals"              }
+    "Books"       {$Field = "BookName"        ; $Name= "BiologicalBooks"      }
+    "NF-Adj"      {$Field = "Adjective"       ; $Name= "NF-Adjectives"        }
+    "NF-Names"    {$Field = "LastName"        ; $Name= "NF-Names"             }
+    "RPG"         {$Field = "Keyword"         ; $Name= "RPGKeywords"          }
     }
 
       $ProjectPath = Join-Path -Path (Split-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -Parent) -ChildPath 'BioNameGenerator'
