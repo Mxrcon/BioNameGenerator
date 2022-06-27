@@ -18,7 +18,7 @@ Function Get-RandomPhrase {
         [Parameter()]
         [string]$Start = "None",
     [Parameter()]
-        [string]$Middle = "Aminoacid",
+        [string]$Middle = "Aminoacids",
     [Parameter()]
         [string]$End = "Generas",
     [Parameter()]
