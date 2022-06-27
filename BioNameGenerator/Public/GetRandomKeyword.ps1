@@ -19,8 +19,8 @@ Function Get-RandomKeyword {
         [string]$Dictionary = "Aminoacids"
     )
     switch ($Dictionary){
-        "Aminoacids"  {$Field ="AminoacidName"  ; $Name= "Aminoacids"           }
-        "NucleicAcid" {$Field ="NucleicAcidName"; $Name= "NucleicAcids"         }
+    "Aminoacids"  {$Field ="AminoacidName"  ; $Name= "Aminoacids"           }
+    "NucleicAcid" {$Field ="NucleicAcidName"; $Name= "NucleicAcids"         }
     "Generas"     {$Field = "GeneraName"    ; $Name= "BacterialGeneras"     }
     "Species"     {$Field = "SpecieName"    ; $Name= "BacterialSpecies"     }
     "Metals"      {$Field = "ElementName"   ; $Name= "MetalsAndAlloys"      }
@@ -42,3 +42,4 @@ Function Get-RandomKeyword {
 
       Get-KeywordFromDatabase -Database $DictionariesPath -TableField $Field -TableName $Name
 }
+

@@ -18,7 +18,7 @@ Function Get-RandomPhrase {
         [Parameter()]
         [string]$Start = "None",
     [Parameter()]
-        [string]$Middle = "Colors",
+        [string]$Middle = "Aminoacid",
     [Parameter()]
         [string]$End = "Generas",
     [Parameter()]
@@ -27,9 +27,10 @@ Function Get-RandomPhrase {
       $Phrase=@()
       $Structure= @($Start,$Middle,$End)
       foreach($Item in $Structure){
-    if($Item -ne "None"){
-    $Phrase+=$(Get-RandomKeyword $Item)
+        if($Item -ne "None"){
+          $Phrase+=$(Get-RandomKeyword $Item)
         }
       }
+
       return $Phrase -join $Delimiter
 }
