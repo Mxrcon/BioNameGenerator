@@ -16,7 +16,7 @@ Describe 'Test Public Functions' {
     }
     It 'Test all Specific Cases' {
         Get-RandomKeyword -Dictionary "Aminoacids" | Should -BeOfType String
-        Get-RandomKeyword -Dictionary "NucleicAcid" | Should -BeOfType String
+        Get-RandomKeyword -Dictionary "Nucleic" | Should -BeOfType String
         Get-RandomKeyword -Dictionary "Generas" | Should -BeOfType String
         Get-RandomKeyword -Dictionary "Species" | Should -BeOfType String
         Get-RandomKeyword -Dictionary "Metals" | Should -BeOfType String

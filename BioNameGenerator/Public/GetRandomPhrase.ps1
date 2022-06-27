@@ -17,10 +17,10 @@ Function Get-RandomPhrase {
     param (
         [Parameter()]
 	[ValidateSet('Aminoacids', 'Nucleic', 'Generas','Species', 'Metals', 'Colors', 'Comp', 'Fields','Elements', 'Nobel', 'None')]
-        [string]$Start = "None",
+        [string]$Start = "Aminoacids",
     [Parameter()]
 	[ValidateSet('Aminoacids', 'Nucleic', 'Generas','Species', 'Metals', 'Colors', 'Comp', 'Fields','Elements', 'Nobel', 'None')]
-        [string]$Middle = "Aminoacids",
+        [string]$Middle = "None",
     [Parameter()]
 	[ValidateSet('Aminoacids', 'Nucleic', 'Generas','Species', 'Metals', 'Colors', 'Comp', 'Fields','Elements', 'Nobel', 'None')]
         [string]$End = "Generas",

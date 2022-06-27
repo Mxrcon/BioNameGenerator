@@ -20,16 +20,16 @@ Function Get-RandomKeyword {
         [string]$Dictionary = "Aminoacids"
     )
     switch ($Dictionary){
-    "Aminoacids"  {$Field ="AminoacidName"  ; $Name= "Aminoacids"           }
-    "Nucleic"     {$Field ="NucleicAcidName"; $Name= "NucleicAcids"         }
-    "Generas"     {$Field = "GeneraName"    ; $Name= "BacterialGeneras"     }
-    "Species"     {$Field = "SpecieName"    ; $Name= "BacterialSpecies"     }
-    "Metals"      {$Field = "ElementName"   ; $Name= "MetalsAndAlloys"      }
-    "Colors"      {$Field = "ColorName"     ; $Name= "Colors"               }
-    "Comp"        {$Field = "Keyword"       ; $Name= "ComputationKeywords"  }
-    "Fields"      {$Field = "LastName"      ; $Name= "FieldsWinners"        }
-    "Nobel"       {$Field = "LastName"      ; $Name= "NobelLaureates"       }
-    "Elements"    {$Field = "ElementName"   ; $Name= "PeriodicTableElements"}
+    "Aminoacids"  {$Field = "AminoacidName"   ; $Name= "Aminoacids"           }
+    "Nucleic"     {$Field = "NucleicAcidName" ; $Name= "NucleicAcids"         }
+    "Generas"     {$Field = "GeneraName"      ; $Name= "BacterialGeneras"     }
+    "Species"     {$Field = "SpecieName"      ; $Name= "BacterialSpecies"     }
+    "Metals"      {$Field = "ElementName"     ; $Name= "MetalsAndAlloys"      }
+    "Colors"      {$Field = "ColorName"       ; $Name= "Colors"               }
+    "Comp"        {$Field = "Keyword"         ; $Name= "ComputationKeywords"  }
+    "Fields"      {$Field = "LastName"        ; $Name= "FieldsWinners"        }
+    "Nobel"       {$Field = "LastName"        ; $Name= "NobelLaureates"       }
+    "Elements"    {$Field = "ElementName"     ; $Name= "PeriodicTableElements"}
     }
 
       $ProjectPath = Join-Path -Path (Split-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -Parent) -ChildPath 'BioNameGenerator'
