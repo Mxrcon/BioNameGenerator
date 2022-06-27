@@ -16,11 +16,12 @@ Function Get-RandomKeyword {
     [CmdletBinding()]
     param (
         [Parameter()]
+	[ValidateSet('Aminoacids', 'Nucleic', 'Generas','Species', 'Metals', 'Colors', 'Comp', 'Fields','Elements', 'Nobel')]
         [string]$Dictionary = "Aminoacids"
     )
     switch ($Dictionary){
     "Aminoacids"  {$Field ="AminoacidName"  ; $Name= "Aminoacids"           }
-    "NucleicAcid" {$Field ="NucleicAcidName"; $Name= "NucleicAcids"         }
+    "Nucleic"     {$Field ="NucleicAcidName"; $Name= "NucleicAcids"         }
     "Generas"     {$Field = "GeneraName"    ; $Name= "BacterialGeneras"     }
     "Species"     {$Field = "SpecieName"    ; $Name= "BacterialSpecies"     }
     "Metals"      {$Field = "ElementName"   ; $Name= "MetalsAndAlloys"      }

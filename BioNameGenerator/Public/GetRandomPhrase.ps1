@@ -16,10 +16,13 @@ Function Get-RandomPhrase {
     [CmdletBinding()]
     param (
         [Parameter()]
+	[ValidateSet('Aminoacids', 'Nucleic', 'Generas','Species', 'Metals', 'Colors', 'Comp', 'Fields','Elements', 'Nobel', 'None')]
         [string]$Start = "None",
     [Parameter()]
+	[ValidateSet('Aminoacids', 'Nucleic', 'Generas','Species', 'Metals', 'Colors', 'Comp', 'Fields','Elements', 'Nobel', 'None')]
         [string]$Middle = "Aminoacids",
     [Parameter()]
+	[ValidateSet('Aminoacids', 'Nucleic', 'Generas','Species', 'Metals', 'Colors', 'Comp', 'Fields','Elements', 'Nobel', 'None')]
         [string]$End = "Generas",
     [Parameter()]
     [string]$Delimiter = "_")
