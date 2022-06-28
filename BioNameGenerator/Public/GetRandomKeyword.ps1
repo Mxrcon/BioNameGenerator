@@ -9,13 +9,13 @@ Function Get-RandomKeyword {
         Runs the command
     .PARAMETER Dictionary
         Specifies wich Dictiory use for finding random words options: [Aminoacids,Nucleic,Generas,Species,Metals,
-	Colors,Comp,Fields,Nobel,Elements,28kAdj,Animals,Books,NF-Adj,NF-Names,RPG]
+    Colors,Comp,Fields,Nobel,Elements,28kAdj,Animals,Books,NF-Adj,NF-Names,RPG]
     #>
     [OutputType([string])]
     [CmdletBinding()]
     param (
         [Parameter()]
-	[ValidateSet("Aminoacids","Nucleic","Generas","Species","Metals","Colors","Comp","Fields","Nobel","Elements","28kAdj","Animals","Books","NF-Adj","NF-Names","RPG")]
+    [ValidateSet("Aminoacids","Nucleic","Generas","Species","Metals","Colors","Comp","Fields","Nobel","Elements","28kAdj","Animals","Books","NF-Adj","NF-Names","RPG")]
         [string]$Dictionary = "Aminoacids"
     )
     switch ($Dictionary){
