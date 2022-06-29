@@ -16,7 +16,7 @@ A small project to generate random repository/release/project names based on Bio
 - [x] Adjectives
 - [x] RPG-Keywords
 - [x] Computers keywords
-- [ ] Laboratory dishes and equipaments
+- [x] Laboratory dishes and equipaments
 - [x] Bacterial Generas and Species
-- [ ] Inorganic compounds(ie. Hidroxide, Peroxide,)
-- [ ] Important brazilian scientists
+- [x] Inorganic compounds(ie. Hidroxide, Peroxide,)
+- [x] Important brazilian scientists
