@@ -6,8 +6,8 @@ BeforeAll {
       }
       $PublicPath="BioNameGenerator/Public"
 
-    . $ProjectRoot/$PublicPath/"GetRandomKeyword.ps1"
-    . $ProjectRoot/$PublicPath/"GetRandomPhrase.ps1"
+    . $ProjectRoot/$PublicPath/"Get-RandomKeyword.ps1"
+    . $ProjectRoot/$PublicPath/"Get-RandomPhrase.ps1"
 }
 
 Describe 'Test Public Functions' {
