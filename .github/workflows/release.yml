@@ -35,7 +35,7 @@ jobs:
           artifacts: "LICENSE"
           body: ${{ steps.modified.outputs.modified }}
           token: ${{ secrets.GITHUB_TOKEN }}
-     - name: Release on Powershell Gallery
+      - name: Release on Powershell Gallery
         uses:  pcgeek86/publish-powershell-module-action@v20
         with:
           NuGetApiKey: ${{ secrets.PSGALLERY_KEY }
