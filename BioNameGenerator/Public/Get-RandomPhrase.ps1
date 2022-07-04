@@ -16,16 +16,28 @@ Function Get-RandomPhrase {
     [CmdletBinding()]
     param (
         [Parameter()]
-    [ValidateSet("Aminoacids","Nucleic","Generas","Species","Metals","Colors","Comp","Fields","Nobel","Elements","28kAdj","Animals","Books","NF-Adj","NF-Names","RPG",'None')]
+        [ValidateSet("28kAdj","5kColors","Aminoacids","Animals","Books",
+                 "Brazilian","Colors","Comp","Compounds","Elements",
+                     "Fields","Generas","Lab","Metals","NF-Adj",
+                     "NF-Names","Nobel","Nucleic","RPG","Species", "None")]
         [string]$Start = "Aminoacids",
+        
     [Parameter()]
-    [ValidateSet("Aminoacids","Nucleic","Generas","Species","Metals","Colors","Comp","Fields","Nobel","Elements","28kAdj","Animals","Books","NF-Adj","NF-Names","RPG",'None')]
+        [ValidateSet("28kAdj","5kColors","Aminoacids","Animals","Books",
+                 "Brazilian","Colors","Comp","Compounds","Elements",
+                     "Fields","Generas","Lab","Metals","NF-Adj",
+                     "NF-Names","Nobel","Nucleic","RPG","Species","None")]
         [string]$Middle = "None",
+        
     [Parameter()]
-    [ValidateSet("Aminoacids","Nucleic","Generas","Species","Metals","Colors","Comp","Fields","Nobel","Elements","28kAdj","Animals","Books","NF-Adj","NF-Names","RPG",'None')]
+        [ValidateSet("28kAdj","5kColors","Aminoacids","Animals","Books",
+                 "Brazilian","Colors","Comp","Compounds","Elements",
+                     "Fields","Generas","Lab","Metals","NF-Adj",
+                     "NF-Names","Nobel","Nucleic","RPG","Species", "None")]
         [string]$End = "Generas",
+        
     [Parameter()]
-    [string]$Delimiter = "_")
+        [string]$Delimiter = "_")
 
       $Phrase=@()
       $Structure= @($Start,$Middle,$End)
