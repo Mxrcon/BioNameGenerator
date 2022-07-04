@@ -12,7 +12,7 @@
 RootModule = 'BioNameGenerator.psm1'
 
 # Version number of this module.
-ModuleVersion = '0.0.1'
+ModuleVersion = '0.1.0'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
@@ -21,13 +21,13 @@ ModuleVersion = '0.0.1'
 GUID = '02190149-a195-4e06-ad85-ce3b7a8dc3cb'
 
 # Author of this module
-Author = 'Davi Marcon (@mxrcon)'
+Author = 'Davi Marcon'
 
 # Company or vendor of this module
 CompanyName = ''
 
 # Copyright statement for this module
-Copyright = '(c) Davi Marcon (@mxrcon). All rights reserved.'
+Copyright = '(c) Davi Marcon. All rights reserved.'
 
 # Description of the functionality provided by this module
 Description = 'A name generator for projects, versions and other stuff written in powershell'

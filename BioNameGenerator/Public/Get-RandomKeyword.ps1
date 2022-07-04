@@ -3,13 +3,38 @@ Function Get-RandomKeyword {
     .SYNOPSIS
         This functions handles the request for random Keyword based using the function "Get-KeywordFromDatabase"
     .DESCRIPTION
-        Returns a random Keyword from the dictionaries
+        Returns a random Keyword from one of the following dictionaries: ["28kAdj",
+	         "5kColors","Aminoacids","Animals","Books",
+                 "Brazilian","Colors","Comp","Compounds","Elements",
+                 "Fields","Generas","Lab","Metals","NF-Adj",
+                 "NF-Names","Nobel","Nucleic","RPG","Species"]
     .EXAMPLE
-        PS> Get-KeywordHandler
-        Runs the command
+        PS> Get-RandomKeyword -Dicitionary Nobel
+        Returns a random Nobel winner surname
     .PARAMETER Dictionary
-        Specifies wich Dictiory use for finding random words options: [Aminoacids,Nucleic,Generas,Species,Metals,
-    Colors,Comp,Fields,Nobel,Elements,28kAdj,Animals,Books,NF-Adj,NF-Names,RPG]
+        Specifies wich Dictiory use for finding random words
+	Options:
+	DictName     Description
+        - 28kAdj     - 28.000 Adjectives
+        - 5kColors   - 5.000 Color names
+        - Aminoacids - Aminoacids names
+        - Animals    - Animals names
+        - Books      - Important Biological Books
+        - Brazilian  - Important Brazilian Scientists
+        - Colors     - HTML5 Named Colors
+        - Comp       - Computation related Keyworks
+        - Compounds  - Chemical compounds name-parts
+        - Elements   - Periodic table elements
+        - Fields     - Fields Medal Laureates
+        - Generas    - Bacterial Generas
+        - Lab        - Laboratory related keywords
+        - Metals     - Metals and Alloys names
+        - NF-Adj     - Adjective List from Nextflow run ID
+        - NF-Names   - Important Scientists from Newxtflow run ID
+        - Nobel      - Nobel Laureates
+        - Nucleic    - Nucleic Acid Bases
+        - RPG        - Role Playing Games related Keywords
+        - Species    - Bacterial Species
     #>
     [OutputType([string])]
     [CmdletBinding()]

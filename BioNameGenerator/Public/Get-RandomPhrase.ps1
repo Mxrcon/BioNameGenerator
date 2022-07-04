@@ -21,21 +21,21 @@ Function Get-RandomPhrase {
                      "Fields","Generas","Lab","Metals","NF-Adj",
                      "NF-Names","Nobel","Nucleic","RPG","Species", "None")]
         [string]$Start = "Aminoacids",
-        
+
     [Parameter()]
         [ValidateSet("28kAdj","5kColors","Aminoacids","Animals","Books",
                  "Brazilian","Colors","Comp","Compounds","Elements",
                      "Fields","Generas","Lab","Metals","NF-Adj",
                      "NF-Names","Nobel","Nucleic","RPG","Species","None")]
         [string]$Middle = "None",
-        
+
     [Parameter()]
         [ValidateSet("28kAdj","5kColors","Aminoacids","Animals","Books",
                  "Brazilian","Colors","Comp","Compounds","Elements",
                      "Fields","Generas","Lab","Metals","NF-Adj",
                      "NF-Names","Nobel","Nucleic","RPG","Species", "None")]
         [string]$End = "Generas",
-        
+
     [Parameter()]
         [string]$Delimiter = "_")
 
