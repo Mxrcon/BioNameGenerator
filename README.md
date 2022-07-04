@@ -1,9 +1,10 @@
+# BioNameGenerator
 
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Mxrcon/name_generator/main/LICENSE)
-[![GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fmxrcon%2Fname_generator%2Fbadge&style=flat)](https://actions-badge.atrox.dev/mxrcon/name_generator/goto)
-[![PowerShell](https://img.shields.io/powershellgallery/dt/pode.svg?label=PowerShell&colorB=085298&logo=powershell&logoColor=white)](https://www.powershellgallery.com/packages/BioNameGenerator)
+[![Github Actions](https://github.com/Mxrcon/name_generator/actions/workflows/tests.yaml/badge.svg)](https://github.com/Mxrcon/name_generator/actions/workflows/tests.yaml)
+[![PowerShell Gallery](https://img.shields.io/powershellgallery/dt/bionamegenerator.svg?label=PowerShell&colorB=085298&logo=powershell&logoColor=white)](https://www.powershellgallery.com/packages/BioNameGenerator)
 
-# BioNameGenerator
+
 A small project to generate random repository/release/project names based on Biological names and related topics written in Powershell
 
 ## Requirements
