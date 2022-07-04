@@ -15,27 +15,34 @@ Function Get-RandomKeyword {
     [CmdletBinding()]
     param (
         [Parameter()]
-    [ValidateSet("Aminoacids","Nucleic","Generas","Species","Metals","Colors","Comp","Fields","Nobel","Elements","28kAdj","Animals","Books","NF-Adj","NF-Names","RPG")]
+    [ValidateSet("28kAdj","5kColors","Aminoacids","Animals",
+    "Books","Brazilian","Colors","Comp","Compounds","Elements",
+    "Fields","Generas","Lab","Metals","NF-Adj",
+    "NF-Names","Nobel","Nucleic","RPG","Species")]
         [string]$Dictionary = "Aminoacids"
     )
     switch ($Dictionary){
-    "Aminoacids"  {$Field = "AminoacidName"   ; $Name= "Aminoacids"           }
-    "Nucleic"     {$Field = "NucleicAcidName" ; $Name= "NucleicAcids"         }
-    "Generas"     {$Field = "GeneraName"      ; $Name= "BacterialGeneras"     }
-    "Species"     {$Field = "SpecieName"      ; $Name= "BacterialSpecies"     }
-    "Metals"      {$Field = "ElementName"     ; $Name= "MetalsAndAlloys"      }
-    "Colors"      {$Field = "ColorName"       ; $Name= "Colors"               }
-    "Comp"        {$Field = "Keyword"         ; $Name= "ComputationKeywords"  }
-    "Fields"      {$Field = "LastName"        ; $Name= "FieldsWinners"        }
-    "Nobel"       {$Field = "LastName"        ; $Name= "NobelLaureates"       }
-    "Elements"    {$Field = "ElementName"     ; $Name= "PeriodicTableElements"}
-    "28kAdj"      {$Field = "Adjective"       ; $Name= "28kAdjectives"        }
-    "Animals"     {$Field = "AnimalName"      ; $Name= "Animals"              }
-    "Books"       {$Field = "BookName"        ; $Name= "BiologicalBooks"      }
-    "NF-Adj"      {$Field = "Adjective"       ; $Name= "NF-Adjectives"        }
-    "NF-Names"    {$Field = "LastName"        ; $Name= "NF-Names"             }
-    "RPG"         {$Field = "Keyword"         ; $Name= "RPGKeywords"          }
-    }
+     "28kAdj"      {$Field = "Adjective"       ; $Name= "28kAdjectives"        }
+     "5kColors"    {$Field = "ColorName"       ; $Name= "5kColors"             }
+     "Aminoacids"  {$Field = "AminoacidName"   ; $Name= "Aminoacids"           }
+     "Animals"     {$Field = "AnimalName"      ; $Name= "Animals"              }
+     "Books"       {$Field = "BookName"        ; $Name= "BiologicalBooks"      }
+     "Brazilian"   {$Field = "LastName"        ; $Name= "BrazilianScientists"  }
+     "Colors"      {$Field = "ColorName"       ; $Name= "Colors"               }
+     "Comp"        {$Field = "Keyword"         ; $Name= "ComputationKeywords"  }
+     "Compounds"   {$Field = "CompoundName"    ; $Name= "ChemicalCompounds"    }
+     "Elements"    {$Field = "ElementName"     ; $Name= "PeriodicTableElements"}
+     "Fields"      {$Field = "LastName"        ; $Name= "FieldsWinners"        }
+     "Generas"     {$Field = "GeneraName"      ; $Name= "BacterialGeneras"     }
+     "Lab"         {$Field = "Keyword"         ; $Name= "LaboratoryKeywords"   }
+     "Metals"      {$Field = "ElementName"     ; $Name= "MetalsAndAlloys"      }
+     "NF-Adj"      {$Field = "Adjective"       ; $Name= "NF-Adjectives"        }
+     "NF-Names"    {$Field = "LastName"        ; $Name= "NF-Names"             }
+     "Nobel"       {$Field = "LastName"        ; $Name= "NobelLaureates"       }
+     "Nucleic"     {$Field = "NucleicAcidName" ; $Name= "NucleicAcids"         }
+     "RPG"         {$Field = "Keyword"         ; $Name= "RPGKeywords"          }
+     "Species"     {$Field = "SpecieName"      ; $Name= "BacterialSpecies"     }
+     }
 
       $ProjectPath = Join-Path -Path (Split-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -Parent) -ChildPath 'BioNameGenerator'
 
