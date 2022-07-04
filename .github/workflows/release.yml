@@ -1,0 +1,43 @@
+name: Create release
+on:
+  push:
+    tags:
+      - '*'
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v2
+      - name: Build Changelog
+        id: build_changelog
+        uses: Bullrich/generate-release-changelog@master
+        env:
+          REPO: ${{ github.repository }}
+          
+      - name: Clean Changelog
+        id: modified
+        run: |
+          set -o noglob
+          log=$(cat << "EOF" | grep -v typo | grep -v Identation | tac
+          ${{steps.build_changelog.outputs.changelog}}
+          EOF
+          )
+          log="${log//'%'/'%25'}"
+          log="${log//$'\n'/'%0A'}"
+          log="${log//$'\r'/'%0D'}"
+          echo "::set-output name=modified::$log"
+      
+      - name: Release on Github
+        uses: ncipollo/release-action@v1
+        with:
+          name: ${{github.ref_name}}
+          artifacts: "LICENSE"
+          body: ${{ steps.modified.outputs.modified }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+     - name: Release on Powershell Gallery
+        uses:  pcgeek86/publish-powershell-module-action@v20
+        with:
+          NuGetApiKey: ${{ secrets.PSGALLERY_KEY }
+       
+          
