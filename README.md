@@ -1,7 +1,7 @@
 # BioNameGenerator
 
-[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Mxrcon/name_generator/main/LICENSE)
-[![Github Actions](https://github.com/Mxrcon/name_generator/actions/workflows/tests.yaml/badge.svg)](https://github.com/Mxrcon/name_generator/actions/workflows/tests.yaml)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Mxrcon/BioNameGenerator/main/LICENSE)
+[![Github Actions](https://github.com/Mxrcon/BioNameGenerator/actions/workflows/tests.yaml/badge.svg)](https://github.com/Mxrcon/BioNameGenerator/actions/workflows/tests.yaml)
 [![PowerShell Gallery](https://img.shields.io/powershellgallery/dt/bionamegenerator.svg?label=PowerShell&colorB=085298&logo=powershell&logoColor=white)](https://www.powershellgallery.com/packages/BioNameGenerator)
 
 
@@ -35,8 +35,9 @@ Returns a random string from the selected Dictionary
 Example:
 ```powershell
 Get-RandomKeyword -Dictionary Nobel
+
+Duve
 ```
-Should return a random surname of a nobel winner.
 
 
 ### `Get-RandomPhrase`
@@ -45,6 +46,12 @@ Returns a string with 1 or more random keywords concatenaded by a delimiter
 Example:
 ```powershell
 Get-RandomPhrase -Start Metals -Middle Nobel -End Species -Delimiter " "
+
+Flevorium Koshiba antibiotica
 ```
-Should return a random phrase with a Metal name, a Nobel winner surname and a Bacterial Specie separated by space.
+
+### Dictionaries
+
+
+
 

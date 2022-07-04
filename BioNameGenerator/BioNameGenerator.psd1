@@ -12,7 +12,7 @@
 RootModule = 'BioNameGenerator.psm1'
 
 # Version number of this module.
-ModuleVersion = '0.1.0'
+ModuleVersion = '0.1.1'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
@@ -98,10 +98,10 @@ PrivateData = @{
         Tags = @("random", "generator")
 
         # A URL to the license for this module.
-        LicenseUri = 'https://raw.githubusercontent.com/Mxrcon/name_generator/main/LICENSE'
+        LicenseUri = 'https://raw.githubusercontent.com/Mxrcon/BioNameGenerator/main/LICENSE'
 
         # A URL to the main website for this project.
-        ProjectUri = 'https://github.com/Mxrcon/name_generator'
+        ProjectUri = 'https://github.com/Mxrcon/BioNameGenerator'
 
         # A URL to an icon representing this module.
         IconUri = 'https://www.powershellgallery.com/Content/Images/Branding/packageDefaultIcon.svg'
