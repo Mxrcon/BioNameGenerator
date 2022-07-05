@@ -42,7 +42,9 @@ jobs:
           log="${log//$'\r'/'%0D'}"
           echo "::set-output name=modified::$log"
       - name: Write Changelog
-        run: echo "${{ steps.modified.outputs.modified }}" >> CHANGELOG.md
+        run: |
+         echo "## ${{github.ref_name}}" >> CHANGELOG.md
+         echo "${{ steps.modified.outputs.modified }}" >> CHANGELOG.md
 
       - name: Commit Changelog
         uses: EndBug/add-and-commit@v7
