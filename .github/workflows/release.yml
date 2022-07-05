@@ -43,11 +43,14 @@ jobs:
           echo "::set-output name=modified::$log"
       - name: Write Changelog
         run: echo "${{ steps.modified.outputs.modified }}" >> CHANGELOG.md
+
       - name: Commit Changelog
         uses: EndBug/add-and-commit@v7
         with:
+          new_branch: main
           message: ':robot: using action to produce changelog'
           add: 'CHANGELOG.md'
+  
       - name: Release on Github
         uses: ncipollo/release-action@v1
         with:
