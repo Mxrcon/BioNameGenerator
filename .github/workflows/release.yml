@@ -4,17 +4,31 @@ on:
     tags:
       - '*'
 jobs:
-  release:
+  run_tests:
     runs-on: ubuntu-latest
     steps:
-      - name: Set up Git repository
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v1
+      - name: Run Test
+        id: run_test
+        shell: pwsh
+        run: ./build.ps1 -Task Test -Bootstrap
+      - name: Create tests reports
+        id: test_module
+        uses: zyborg/pester-tests-report@v1
+        with:
+          test_results_path: tests/out/testResults.xml
+          exclude_tags: skip_ci
+          report_name: "module_tests_${{ matrix.os }}"
+          report_title: My Module Tests
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          output_level: diagnostic
+          tests_fail_step: true
+
       - name: Build Changelog
         id: build_changelog
         uses: Bullrich/generate-release-changelog@master
         env:
           REPO: ${{ github.repository }}
-          
       - name: Clean Changelog
         id: modified
         run: |
@@ -35,10 +49,8 @@ jobs:
           artifacts: "LICENSE"
           body: ${{ steps.modified.outputs.modified }}
           token: ${{ secrets.GITHUB_TOKEN }}
+      
       - name: Release on Powershell Gallery
-        uses:  pcgeek86/publish-powershell-module-action@v20
-        with:
-          NuGetApiKey: ${{ secrets.PSGALLERY_KEY }}
-          modulePath: BioNameGenerator
-       
+        shell: pwsh
+        run: Publish-Module -Path ./BioNameGenerator -NuGetApiKey ${{ secrets.PSGALLERY_KEY }} -ReleaseNotes ${{ steps.modified.outputs.modified }}
           
