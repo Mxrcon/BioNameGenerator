@@ -41,12 +41,18 @@ jobs:
           log="${log//$'\n'/'%0A'}"
           log="${log//$'\r'/'%0D'}"
           echo "::set-output name=modified::$log"
-      
+      - name: Write Changelog
+        run: echo "${{ steps.modified.outputs.modified }}" >> CHANGELOG.md
+      - name: Commit Changelog
+        uses: EndBug/add-and-commit@v7
+        with:
+          message: ':robot: using action to produce changelog'
+          add: 'CHANGELOG.md'
       - name: Release on Github
         uses: ncipollo/release-action@v1
         with:
           name: ${{github.ref_name}}
-          artifacts: "LICENSE"
+          artifacts: "LICENSE,CHANGELOG.md"
           body: ${{ steps.modified.outputs.modified }}
           token: ${{ secrets.GITHUB_TOKEN }}
       
