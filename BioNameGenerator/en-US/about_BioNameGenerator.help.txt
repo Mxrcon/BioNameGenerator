@@ -2,15 +2,14 @@ TOPIC
     BioNameGenerator
 
 SHORT DESCRIPTION
-    You should considering providing an introduction and overview of your
-    module here.
+    This module provides functions for Random Generation of Words or Phrases 
+    using Dictionaries inspired by Biology and Science.
 
 LONG DESCRIPTION
-    Discuss what the "primary" commands are in your module especially if
-    there are many commands.  Discuss how to get started using this module
-    providing examples where appropriate.
+    The function `Get-RandomKeyword` provides a method of generating random
+    Keywords from one of the dictionaries packed with the Module in a SQLite
+    database.
 
-YOUR HEADER HERE
-    About topics in PowerShell are free-form text.  Add headers to your
-    about topic as necessary.
-
+    `Get-RandomPhrase` generates random phrases with 1 or more words acessing the
+    dicionaries multiple times, and a delimiter can be specifed for the concatenation
+    of the output.
