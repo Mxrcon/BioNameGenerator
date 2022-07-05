@@ -63,6 +63,6 @@ jobs:
         shell: pwsh
         run: |
           Update-ModuleManifest -Path ./BioNameGenerator/BioNameGenerator.psd1 -ReleaseNotes "${{ steps.modified.outputs.modified }}" 
-          Update-ModuleManifest -Path ./BioNameGenerator/BioNameGenerator.psd1 --ModuleVersion ${{github.ref_name}}
+          Update-ModuleManifest -Path ./BioNameGenerator/BioNameGenerator.psd1 -ModuleVersion ${{github.ref_name}}
           Publish-Module -Path ./BioNameGenerator -NuGetApiKey ${{ secrets.PSGALLERY_KEY }} 
     
