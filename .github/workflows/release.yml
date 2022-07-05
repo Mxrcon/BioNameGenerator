@@ -8,6 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+         fetch-depth: 0
       - name: Run Test
         id: run_test
         shell: pwsh
@@ -33,7 +35,7 @@ jobs:
         id: modified
         run: |
           set -o noglob
-          log=$(cat << "EOF" | grep -v :robot: | tac
+          log=$(cat << "EOF" | grep -v :robot:| tac
           ${{steps.build_changelog.outputs.changelog}}
           EOF
           )
