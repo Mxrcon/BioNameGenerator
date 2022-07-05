@@ -19,7 +19,7 @@ jobs:
         id: modified
         run: |
           set -o noglob
-          log=$(cat << "EOF" | grep -v typo | grep -v Identation | tac
+          log=$(cat << "EOF" | grep -v :robot: | tac
           ${{steps.build_changelog.outputs.changelog}}
           EOF
           )
