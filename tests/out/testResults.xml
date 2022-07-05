@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="27" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="2" invalid="0" date="2022-07-04" time="11:46:30">
+  <environment platform="Linux" cwd="/home/davi_marcon/Documents/name_generator/name_generator/tests" nunit-version="2.5.8.0" os-version="5.4.0-113-generic" machine-name="linux-A515-54" user="davi_marcon" user-domain="" clr-version="Unknown" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="TestFixture" name="Pester" executed="True" result="Ignored" success="True" time="1.3606" asserts="0" description="Pester">
+    <results>
+      <test-suite type="TestFixture" name="/home/davi_marcon/Documents/name_generator/name_generator/tests/Manifest.tests.ps1" executed="True" result="Ignored" success="True" time="0.6599" asserts="0" description="/home/davi_marcon/Documents/name_generator/name_generator/tests/Manifest.tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Module manifest" executed="True" result="Success" success="True" time="0.2691" asserts="0" description="Module manifest">
+            <results>
+              <test-suite type="TestFixture" name="Module manifest.Validation" executed="True" result="Success" success="True" time="0.2587" asserts="0" description="Module manifest.Validation">
+                <results>
+                  <test-case description="Has a valid manifest" name="Module manifest.Validation.Has a valid manifest" time="0.1065" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has a valid name in the manifest" name="Module manifest.Validation.Has a valid name in the manifest" time="0.0265" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has a valid root module" name="Module manifest.Validation.Has a valid root module" time="0.007" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has a valid version in the manifest" name="Module manifest.Validation.Has a valid version in the manifest" time="0.0082" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has a valid description" name="Module manifest.Validation.Has a valid description" time="0.0072" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has a valid author" name="Module manifest.Validation.Has a valid author" time="0.0184" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has a valid guid" name="Module manifest.Validation.Has a valid guid" time="0.0191" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has a valid copyright" name="Module manifest.Validation.Has a valid copyright" time="0.007" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has a valid version in the changelog" name="Module manifest.Validation.Has a valid version in the changelog" time="0.0062" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Changelog and manifest versions are the same" name="Module manifest.Validation.Changelog and manifest versions are the same" time="0.0102" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="Git tagging" executed="True" result="Ignored" success="True" time="0.2839" asserts="0" description="Git tagging">
+            <results>
+              <test-case description="Is tagged with a valid version" name="Git tagging.Is tagged with a valid version" time="0.0075" asserts="0" success="False" result="Ignored" executed="False" />
+              <test-case description="Matches manifest version" name="Git tagging.Matches manifest version" time="0.0027" asserts="0" success="False" result="Ignored" executed="False" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="/home/davi_marcon/Documents/name_generator/name_generator/tests/Meta.tests.ps1" executed="True" result="Success" success="True" time="0.1603" asserts="0" description="/home/davi_marcon/Documents/name_generator/name_generator/tests/Meta.tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Text files formatting" executed="True" result="Success" success="True" time="0.0231" asserts="0" description="Text files formatting">
+            <results>
+              <test-suite type="TestFixture" name="Text files formatting.File encoding" executed="True" result="Success" success="True" time="0.0085" asserts="0" description="Text files formatting.File encoding">
+                <results>
+                  <test-case description="No text file uses Unicode/UTF-16 encoding" name="Text files formatting.File encoding.No text file uses Unicode/UTF-16 encoding" time="0.0054" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="Text files formatting.Indentations" executed="True" result="Success" success="True" time="0.0197" asserts="0" description="Text files formatting.Indentations">
+                <results>
+                  <test-case description="No text file use tabs for indentations" name="Text files formatting.Indentations.No text file use tabs for indentations" time="0.005" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="/home/davi_marcon/Documents/name_generator/name_generator/tests/Private.tests.ps1" executed="True" result="Success" success="True" time="0.4069" asserts="0" description="/home/davi_marcon/Documents/name_generator/name_generator/tests/Private.tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Test Private Functions" executed="True" result="Success" success="True" time="0.383" asserts="0" description="Test Private Functions">
+            <results>
+              <test-case description="Generate a random Aminoacid" name="Test Private Functions.Generate a random Aminoacid" time="0.2708" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Generate a random Nucleic Acid" name="Test Private Functions.Generate a random Nucleic Acid" time="0.0074" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Generate a random Bacterial Genera" name="Test Private Functions.Generate a random Bacterial Genera" time="0.0101" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Generate a random Bacterial Specie" name="Test Private Functions.Generate a random Bacterial Specie" time="0.0218" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Generate a random Metal or Alloy" name="Test Private Functions.Generate a random Metal or Alloy" time="0.0084" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Generate a random Color" name="Test Private Functions.Generate a random Color" time="0.0086" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Generate a random Computation Keyword" name="Test Private Functions.Generate a random Computation Keyword" time="0.0208" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Generate a random Fields Winner" name="Test Private Functions.Generate a random Fields Winner" time="0.0078" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Generate a random Nobel Laureate" name="Test Private Functions.Generate a random Nobel Laureate" time="0.0119" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Generate a random Periodic Table Element" name="Test Private Functions.Generate a random Periodic Table Element" time="0.0073" asserts="0" success="True" result="Success" executed="True" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="/home/davi_marcon/Documents/name_generator/name_generator/tests/Public.tests.ps1" executed="True" result="Success" success="True" time="0.1335" asserts="0" description="/home/davi_marcon/Documents/name_generator/name_generator/tests/Public.tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Test Public Functions" executed="True" result="Success" success="True" time="0.1146" asserts="0" description="Test Public Functions">
+            <results>
+              <test-case description="Test Get-RandomKeyword with Default" name="Test Public Functions.Test Get-RandomKeyword with Default" time="0.02" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Test all Specific Cases" name="Test Public Functions.Test all Specific Cases" time="0.0748" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Test Get-RandomPhrase with Default" name="Test Public Functions.Test Get-RandomPhrase with Default" time="0.0152" asserts="0" success="True" result="Success" executed="True" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
