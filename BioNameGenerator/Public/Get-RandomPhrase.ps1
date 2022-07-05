@@ -1,16 +1,44 @@
 Function Get-RandomPhrase {
     <#
     .SYNOPSIS
-        This functions handles the request for random Keyword based using the function "Get-KeywordFromDatabase"
+        This functions handles the request for random Keyword using the function "Get-KeywordFromDatabase"
     .DESCRIPTION
-        Returns a random Keyword from the dictionaries
+        Returns one or more random generated words separated by a delimiter
     .EXAMPLE
-        PS> Get-KeywordHandler
-        Runs the command
-    .PARAMETER Dictionary
-        Specifies wich Dictiory use for finding random words [Aminoacids, NucleicAcids, BacterialGeneras,
-    BacterialSpecies, MetalsAndAlloys, Colors, ComputationKeywords, FieldsWinners,
-    NobelLaureates,PeriodicTableElements]
+        PS> Get-RandomPhrase -Start Metals -Middle Nobel -End Species -Delimiter "-"
+        
+	Flevorium-Koshiba-antibiotica
+    .PARAMETER Start
+        Specifies the dictionary to be used for the first word, can be one of the following dicitionaries or None
+        
+	["28kAdj","5kColors","Aminoacids","Animals","Books",
+        "Brazilian","Colors","Comp","Compounds","Elements",
+        "Fields","Generas","Lab","Metals","NF-Adj",
+        "NF-Names","Nobel","Nucleic","RPG","Species"]
+
+	Default: Aminoacids
+    .PARAMETER Middle
+        Specifies the dictionary to be used for the middle word, can be one of the following dicitionaries or None
+
+	["28kAdj","5kColors","Aminoacids","Animals","Books",
+        "Brazilian","Colors","Comp","Compounds","Elements",
+        "Fields","Generas","Lab","Metals","NF-Adj",
+        "NF-Names","Nobel","Nucleic","RPG","Species"]
+
+	Default: None
+    .PARAMETER End
+        Specifies the dictionary to be used for the last word, can be one of the following dicitionaries or None
+
+	["28kAdj","5kColors","Aminoacids","Animals","Books",
+        "Brazilian","Colors","Comp","Compounds","Elements",
+        "Fields","Generas","Lab","Metals","NF-Adj",
+        "NF-Names","Nobel","Nucleic","RPG","Species"]
+
+	Default: Generas
+    .PARAMETER Delimiter
+    	Specifies wich delimiter to be used between each word generated, can be any string.
+
+	Default: "_"
     #>
     [OutputType([string])]
     [CmdletBinding()]
