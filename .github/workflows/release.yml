@@ -4,7 +4,7 @@ on:
     tags:
       - '*'
 jobs:
-  run_tests:
+  test_and_release:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
@@ -52,5 +52,5 @@ jobs:
       
       - name: Release on Powershell Gallery
         shell: pwsh
-        run: Publish-Module -Path ./BioNameGenerator -NuGetApiKey ${{ secrets.PSGALLERY_KEY }} -ReleaseNotes ${{ steps.modified.outputs.modified }}
-          
+        run: Publish-Module -Path ./BioNameGenerator -NuGetApiKey ${{ secrets.PSGALLERY_KEY }} -ReleaseNotes "${{ steps.modified.outputs.modified }}"
+    
