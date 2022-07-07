@@ -1,4 +1,4 @@
-name: Tests
+name: Tests Installation
 on: 
    workflow_dispatch:
 jobs:
@@ -10,7 +10,7 @@ jobs:
       matrix:
         os: [ubuntu-latest, windows-latest, macOS-latest]
     steps:
-     - name: Test Installation on ${{ matrix.os }}
+     - name: Installation on ${{ matrix.os }}
        shell: pwsh
        run: |
           Install-Module BioNameGenerator
