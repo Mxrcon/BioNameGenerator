@@ -1,0 +1,18 @@
+name: Tests
+on: 
+   workflow_dispatch:
+  jobs:
+  test:
+    name: Test Installation
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macOS-latest]
+    steps:
+     - name: Test Installation on ${{ matrix.os }}
+      shell: pwsh
+      run: |
+        Install-Module BioNameGenerator
+        Get-RandomKeyword
+        Get-RandomPhrase
