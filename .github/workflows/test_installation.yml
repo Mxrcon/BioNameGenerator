@@ -13,7 +13,7 @@ jobs:
      - name: Installation on ${{ matrix.os }}
        shell: pwsh
        run: |
-          Register-PSRepository PSGallery
+          Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
           Install-Module BioNameGenerator 
           Get-RandomKeyword
           Get-RandomPhrase
