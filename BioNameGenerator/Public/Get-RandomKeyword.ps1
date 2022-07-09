@@ -70,7 +70,7 @@ Function Get-RandomKeyword {
      }
 
       $ProjectPath = $ProjectPath = Join-Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath ""
-      Write-Output $ProjectPath
+      
       # Import Modules
       Import-Module -Name (Join-Path -Path $ProjectPath `
             -ChildPath (Join-Path -Path 'Private' `
