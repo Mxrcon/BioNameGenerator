@@ -69,14 +69,16 @@ Function Get-RandomKeyword {
      "Species"     {$Field = "SpecieName"      ; $Name= "BacterialSpecies"     }
      }
 
-      $ProjectPath = Join-Path -Path (Split-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -Parent) -ChildPath 'BioNameGenerator'
-
+      $ProjectPath = $ProjectPath = Join-Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath ""
+      Write-Output $ProjectPath
       # Import Modules
       Import-Module -Name (Join-Path -Path $ProjectPath `
             -ChildPath (Join-Path -Path 'Private' `
             -ChildPath 'GetKeywordFromDatabase.psm1'))
 
-      $DictionariesPath= "$ProjectPath/Databases/Dictionaries.db"
+      $DictionariesPath = (Join-Path -Path $ProjectPath `
+           -ChildPath (Join-Path -Path 'Databases' `
+           -ChildPath 'Dictionaries.db'))
 
       Get-KeywordFromDatabase -Database $DictionariesPath -TableField $Field -TableName $Name
 }
