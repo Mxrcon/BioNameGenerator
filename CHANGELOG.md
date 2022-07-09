@@ -31,3 +31,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
  - 1cac3a3 Update CHANGELOG.md
  - 16dfa30 adding header to Changelog
  - 996ef8d adding fetch dept to release workflow
+## 0.1.9
+ - a8ce91b adding a workflow for testing installation
+ - 097b909 fixing identation
+ - 3bfc50a renaming workflows
+ - 64c4031 renaming tests workflow
+ - 8de61d0 addinng PSRepository
+ - 0bfa189 registering PSGallery repository
+ - 96c8372 setting psGallery as trusted
+ - ec7cda0 fixing the  variable on public functions
+ - 68d3282 removing automatic release notes
+ - a85cf4c adding a link for release notes
