@@ -1,4 +1,4 @@
-name: Tests Installation
+name: Installation Test
 on: 
    workflow_dispatch:
 jobs:
