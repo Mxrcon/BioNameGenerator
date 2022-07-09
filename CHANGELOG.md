@@ -42,3 +42,5 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
  - ec7cda0 fixing the  variable on public functions
  - 68d3282 removing automatic release notes
  - a85cf4c adding a link for release notes
+## 0.2.0
+ - 84d07d4 removing erroneous 
