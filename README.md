@@ -1,7 +1,8 @@
 # BioNameGenerator
 
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Mxrcon/BioNameGenerator/main/LICENSE)
-[![Github Actions](https://github.com/Mxrcon/BioNameGenerator/actions/workflows/tests.yaml/badge.svg)](https://github.com/Mxrcon/BioNameGenerator/actions/workflows/tests.yaml)
+[![Testes](https://github.com/Mxrcon/BioNameGenerator/actions/workflows/tests.yaml/badge.svg)](https://github.com/Mxrcon/BioNameGenerator/actions/workflows/tests.yaml)
+[![Installation](https://github.com/Mxrcon/BioNameGenerator/actions/workflows/test_installation.yml/badge.svg)](https://github.com/Mxrcon/BioNameGenerator/actions/workflows/test_installation.yml)
 [![PowerShell Gallery](https://img.shields.io/powershellgallery/dt/bionamegenerator.svg?label=PowerShell&colorB=085298&logo=powershell&logoColor=white)](https://www.powershellgallery.com/packages/BioNameGenerator)
 
 
