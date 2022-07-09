@@ -1,4 +1,4 @@
-name: Run Pester Tests
+name: Pester Tests
 on: 
    push:
      branches:    
