@@ -1,6 +1,8 @@
 name: Installation Test
-on: 
-   workflow_dispatch:
+on:
+  release:
+    types: [published, released]
+  workflow_dispatch:
 jobs:
   test:
     name: Run Tests
