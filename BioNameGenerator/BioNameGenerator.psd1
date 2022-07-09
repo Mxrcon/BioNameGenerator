@@ -107,7 +107,7 @@ PrivateData = @{
         IconUri = 'https://www.powershellgallery.com/Content/Images/Branding/packageDefaultIcon.svg'
 
         # ReleaseNotes of this module
-        # ReleaseNotes = ''
+        ReleaseNotes = 'Fore release notes please check https://raw.githubusercontent.com/Mxrcon/BioNameGenerator/main/CHANGELOG.md'
 
         # Prerelease string of this module
         # Prerelease = ''
