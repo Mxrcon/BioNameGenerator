@@ -63,7 +63,7 @@ Flevorium Koshiba antibiotica
 
 `Books` - Important books for Biology, Biotechnology, Biochemistry grad students
 
-`Brazilian` - List of Brazilian lists Joining 2 wikipedia lists: [Cientistas do Brasil](https://pt.wikipedia.org/wiki/Categoria:Cientistas_do_Brasil) and [Lista de pioneiras da Ciência no Brasil](https://pt.wikipedia.org/wiki/Lista_de_pioneiras_da_Ci%C3%AAncia_no_Brasil), and the list of Afiliated, Titulars and Members of Academia de Ciência do Brasil (ACB)
+`Brazilian` - List of Brazilian Scientists Joining 2 wikipedia lists: [Cientistas do Brasil](https://pt.wikipedia.org/wiki/Categoria:Cientistas_do_Brasil) and [Lista de pioneiras da Ciência no Brasil](https://pt.wikipedia.org/wiki/Lista_de_pioneiras_da_Ci%C3%AAncia_no_Brasil), and the list of Afiliated, Titulars and Members of Academia de Ciência do Brasil (ACB)
 
 `Colors` - List of named colors from html5
 
