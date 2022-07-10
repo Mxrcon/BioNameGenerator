@@ -2,7 +2,7 @@ name: Create release
 on:
   push:
     tags:
-      - '*'
+      - 'v*'
 jobs:
   test_and_release:
     runs-on: ubuntu-latest
@@ -66,6 +66,7 @@ jobs:
       - name: Release on Powershell Gallery
         shell: pwsh
         run: |
-          Update-ModuleManifest -Path ./BioNameGenerator/BioNameGenerator.psd1 -ModuleVersion ${{github.ref_name}}
+          $ModuleVersion = "${{github.ref_name}}" -replace ('[a-zA-Z\-]', '')
+          Update-ModuleManifest -Path ./BioNameGenerator/BioNameGenerator.psd1 -ModuleVersion $ModuleVersion
           Publish-Module -Path ./BioNameGenerator -NuGetApiKey ${{ secrets.PSGALLERY_KEY }} 
     
