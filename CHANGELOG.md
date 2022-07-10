@@ -44,3 +44,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
  - a85cf4c adding a link for release notes
 ## 0.2.0
  - 84d07d4 removing erroneous 
+## v1.0.0
+ - 1fe0ba7 renaming workflow
+ - b4d5ee1 Update README.md
+ - dd91f6f run installation test after release
+ - 8b517ce renaming workflow 
+ - b896931 adding dictionary information on 
+ - 9005763 now using semantic versioning
+ - ad2c50c improving documenation
