@@ -1,7 +1,7 @@
 Function Get-RandomPhrase {
     <#
     .SYNOPSIS
-        This functions handles the request for random Keyword using the function "Get-KeywordFromDatabase"
+        This function Generates 2 or 3 random words and concatenate them with a delimiter
     .DESCRIPTION
         Returns one or more random generated words separated by a delimiter
     .EXAMPLE

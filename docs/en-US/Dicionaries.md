@@ -5,54 +5,13 @@ online version:
 schema: 2.0.0
 ---
 
-# Get-HelloWorld
+# Dictionaries
 
 ## SYNOPSIS
-Returns Hello world
 
-## SYNTAX
-
-```
-Get-HelloWorld [[-Value] <String>] [<CommonParameters>]
-```
+SQLite database used by the Module to store the keywords
 
 ## DESCRIPTION
-Returns Hello world
 
-## EXAMPLES
+Contains several tables that are acessed by the private function`Get-KeywordFromDatabase`
 
-### EXAMPLE 1
-```
-Get-HelloWorld
-```
-
-Runs the command
-
-## PARAMETERS
-
-### -Value
-Parameter description can go here or above in format: .PARAMETER  \<Parameter-Name\>
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: 1
-Default value: GetHelloWorld
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see [about_CommonParameters](http://go.microsoft.com/fwlink/?LinkID=113216).
-
-## INPUTS
-
-## OUTPUTS
-
-### System.String
-## NOTES
-
-## RELATED LINKS
