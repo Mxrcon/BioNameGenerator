@@ -1,7 +1,6 @@
 name: Installation Test
 on:
   release:
-    types: [published, released]
   workflow_dispatch:
 jobs:
   test:
