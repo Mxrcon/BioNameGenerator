@@ -52,3 +52,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
  - b896931 adding dictionary information on 
  - 9005763 now using semantic versioning
  - ad2c50c improving documenation
+## v1.0.1
+ - beef014 typo on  [ci skip]
+ - 36f3b82 updating Brazilian Scientists list
+ - 65fa5bd anything related to release
