@@ -54,19 +54,28 @@ jobs:
           branch: main
           message: ':robot: using action to produce changelog'
           add: 'CHANGELOG.md'
-  
-      - name: Release on Github
-        uses: ncipollo/release-action@v1
-        with:
-          name: ${{github.ref_name}}
-          artifacts: "LICENSE,CHANGELOG.md"
-          body: ${{ steps.modified.outputs.modified }}
-          token: ${{ secrets.GITHUB_TOKEN }}
-      
+          
       - name: Release on Powershell Gallery
         shell: pwsh
         run: |
           $ModuleVersion = "${{github.ref_name}}" -replace ('[a-zA-Z\-]', '')
           Update-ModuleManifest -Path ./BioNameGenerator/BioNameGenerator.psd1 -ModuleVersion $ModuleVersion
-          Publish-Module -Path ./BioNameGenerator -NuGetApiKey ${{ secrets.PSGALLERY_KEY }} 
+          Publish-Module -Path ./BioNameGenerator -NuGetApiKey ${{ secrets.PSGALLERY_KEY }}   
+      - name: Generate a release name
+        shell: pwsh
+        id: gen_release
+        run: |
+          Install-Module BioNameGenerator
+          $VersionName = $(Get-RandomPhrase -Start Aminoacids -Middle Brazilian -End Species -Delimiter " ").ToLower()
+          echo "::set-output name=random_name::$VersionName"
+        
+      - name: Release on Github
+        uses: ncipollo/release-action@v1
+        with:
+          name: "${{github.ref_name}} - ${{ steps.gen_release.outputs.random_name}}"
+          artifacts: "LICENSE,CHANGELOG.md"
+          body: ${{ steps.modified.outputs.modified }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+
     
