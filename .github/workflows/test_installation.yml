@@ -2,6 +2,10 @@ name: Installation Test
 on:
   release:
   workflow_dispatch:
+  workflow_run:
+    workflows: ["Create release"]
+    types:
+      - completed
 jobs:
   test:
     name: Run Tests
