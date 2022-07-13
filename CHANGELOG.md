@@ -58,3 +58,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
  - 65fa5bd anything related to release
 ## v1.0.2
  - 8c41961 further updates to the brazilian scientists database
+## v1.0.3
+ - d5f8727 run after the  workflow complete
+ - 486bf84 using the published module on the release wf
