@@ -61,3 +61,5 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## v1.0.3
  - d5f8727 run after the  workflow complete
  - 486bf84 using the published module on the release wf
+## v1.0.4  - arginine gattass salaria
+ - b093352 fixing the release name issue
