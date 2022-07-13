@@ -56,3 +56,5 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
  - beef014 typo on  [ci skip]
  - 36f3b82 updating Brazilian Scientists list
  - 65fa5bd anything related to release
+## v1.0.2
+ - 8c41961 further updates to the brazilian scientists database
