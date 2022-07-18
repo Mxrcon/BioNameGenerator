@@ -67,8 +67,8 @@ jobs:
         uses: EndBug/add-and-commit@v7
         with:
           branch: main
-          message: ':robot: using action to produce changelog'
-          add: 'CHANGELOG.md'
+          message: ':robot: create changelog and update ModuleManifest'
+          add: "CHANGELOG.md,BioNameGenerator/BioNameGenerator.psd1"
 
       - name: Release on Github
         uses: ncipollo/release-action@v1
